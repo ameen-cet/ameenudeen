@@ -1,7 +1,7 @@
 ---
 layout: post
 title: എന്റെ ആദ്യ മലയാളം ബ്ലോഗ്
-date: 2026-07-08 12:00:00
+date: 2026-07-08 00:00:00
 description: മലയാളത്തിൽ എഴുതിയ ഒരു സാമ്പിൾ ബ്ലോഗ് പോസ്റ്റ്
 tags: malayalam sample
 categories: sample-posts
