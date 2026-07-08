@@ -21,7 +21,7 @@ cv:
         location: Bangalore, India
         area: Electrical Engineering
         degree: PhD
-        start_date: 2019-07
+        start_date: 2023
         end_date: present
         highlights:
           - Working with Dr. Sriram Ganapathy on applications of Deep Learning for speech processing.
@@ -70,6 +70,166 @@ cv:
         location: Palai, India
         start_date: 2012-06
         end_date: 2016-05
+
+    Publications:
+      - title: ULTRAS-Unified Learning of Transformer Representations for Audio and Speech Signals
+        authors:
+          - "**PE Ameenudeen**"
+          - C Narayanan
+          - S Ganapathy
+        journal: 2025 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)
+        date: 2025
+
+      - title: Enhancing Micro Electro Mechanical System Gyroscope Data Precision Through Autoencoder-Based Denoising
+        authors:
+          - KS Kamath
+          - ML Nair
+          - R Chacko
+          - "**PE Ameenudeen**"
+        journal: 2024 IEEE International Conference on Contemporary Computing and Communications
+        date: 2024
+
+      - title: A Machine Learning Approach to Unusual Object Detection in Faint Satellite Imagery
+        authors:
+          - CK Sreeja
+          - "**PE Ameenudeen**"
+        journal: 2023 9th International Conference on Smart Computing and Communications
+        date: 2023
+
+      - title: Performance improvement of a MEMS gyroscope using filtering and machine learning methods
+        authors:
+          - R Chacko
+          - RV Binoj
+          - "**PE Ameenudeen**"
+        journal: 2023 International Conference on Control, Communication and Computing (ICCC)
+        date: 2023
+
+      - title: Denoising autoencoder for the removal of noise in brain mr images
+        authors:
+          - A Thomas
+          - DK KR
+          - D Babu
+          - "**A PE**"
+        journal: 2023 International Conference on Control, Communication and Computing (ICCC)
+        date: 2023
+
+      - title: Deep learning based digital wireless communication system
+        authors:
+          - SK Jayakumar
+          - NM Benoy
+          - VM Mohan
+          - G Nair
+        journal: 2023 International Conference on Control, Communication and Computing (ICCC)
+        date: 2023
+
+      - title: Bio-medical image denoising using autoencoders
+        authors:
+          - JM Thomas
+        journal: 2022 Second International Conference on Next Generation Intelligent Systems
+        date: 2022
+
+      - title: Design of Machine learning based Decoding Algorithms for Codes on Graph
+        authors:
+          - J Sunny
+          - "**PE Ameenudeen**"
+          - RH Kumar
+        journal: 2022 IEEE Silchar Subsection Conference (SILCON)
+        date: 2022
+
+      - title: Zero Shot Recognition Using GCN
+        authors:
+          - "**PE Ameenudeen**"
+          - D Shaikh
+          - TM Deepa
+          - N Pathiyil
+        date: 2019
+
+      - title: Automated accident alert
+        authors:
+          - S Dhanya
+          - "**PE Ameenudeen**"
+          - A Vasudev
+          - A Benny
+          - S Joy
+        journal: 2018 International Conference on Emerging Trends and Innovations
+        date: 2018
+
+      - title: A meta-analysis of contrast measures used for the performance evaluation of histogram equalization based image enhancement techniques
+        authors:
+          - BN Anoop
+          - "**PE Ameenudeen**"
+          - J Joseph
+        journal: 2018 9th International Conference on Computing, Communication and Networking
+        date: 2018
+
+      - title: Analysis of hard decision and soft decision decoding algorithms of LDPC codes in AWGN
+        authors:
+          - R Jose
+          - "**A Pe**"
+        journal: 2015 IEEE International Advance Computing Conference (IACC)
+        date: 2015
+
+      - title: Error correction based on redundant Residue Number System
+        authors:
+          - J James
+          - "**A Pe**"
+        journal: 2015 IEEE International Conference On Electronics, Computing and Communications
+        date: 2015
+
+      - title: A novel method for error correction using Redundant Residue Number System in digital communication systems
+        authors:
+          - J James
+          - "**A Pe**"
+        journal: 2015 International Conference on Advances in Computing, Communications and Informatics
+        date: 2015
+
+      - title: Application of residue number system in the generation of PN-sequences for CDMA systems
+        authors:
+          - J James
+          - "**A Pe**"
+          - S Vasu
+          - V Venu
+        journal: 2015 International Conference on Computing and Network Communications
+        date: 2015
+
+      - title: Multiple error correction using non-binary Redundant Residue Number System
+        authors:
+          - A James
+          - "**A Pe**"
+          - J James
+          - M George
+        journal: 2015 Annual IEEE India Conference (INDICON)
+        date: 2015
+
+      - title: Channel coding using low density parity check codes in AWGN
+        authors:
+          - R Jose
+          - "**PE Ameenudeen**"
+        journal: International Journal of Computer Applications
+        date: 2015
+
+      - title: A novel method for error correction using Redundant Residue Number System in digital communication systems
+        authors:
+          - J Jilu
+          - "**P Ameenudeen**"
+        journal: 2015 IEEE International Conference on Advances in Computing, Communication and Informatics
+        date: 2015
+
+      - title: A study on solitons in optical communication systems
+        authors:
+          - "**A Pe**"
+          - M George
+          - S Vasu
+          - V Venu
+        journal: 2015 Annual IEEE India Conference (INDICON)
+        date: 2015
+
+      - title: Performance evaluation of regular cycle non-binary LDPC codes in AWGN channel
+        authors:
+          - "**A Pe**"
+          - AV Babu
+        journal: Proceedings of the International Conference on Advances in Computing
+        date: 2012
 
     Research Interests:
       - bullet: "Deep Learning, Speech Processing, Speech Recognition, Speaker Recognition"
