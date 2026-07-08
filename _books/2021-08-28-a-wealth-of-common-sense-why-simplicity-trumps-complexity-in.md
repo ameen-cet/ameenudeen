@@ -2,6 +2,7 @@
 layout: book-review
 title: "A Wealth of Common Sense: Why Simplicity Trumps Complexity in Any Investment Plan (Bloomberg)"
 author: "Ben Carlson"
+olid: OL35421485M
 released: 2015
 started: 2021-08-28
 finished: 2021-08-28

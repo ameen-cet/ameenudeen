@@ -2,6 +2,7 @@
 layout: book-review
 title: "The Fountainhead"
 author: "Ayn Rand"
+olid: OL58698750M
 released: 1943
 started: 2023-07-25
 finished: 2023-07-25
