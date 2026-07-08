@@ -2,7 +2,7 @@ cv:
   name: Ameenudeen P E
   headline: PhD Student | Assistant Professor
   location: India
-  email: ameen.cet@gmail.com
+  email: ameenudeen@cet.ac.in
 
   social_networks:
     - network: GitHub
@@ -24,12 +24,14 @@ cv:
         location: Calicut, India
         area: Telecommunications
         degree: MTech
+        start_date: 2010
         end_date: 2012
 
       - institution: College of Engineering Trivandrum
         location: Trivandrum, India
         area: Electronics and Communication Engineering
         degree: BTech
+        start_date: 2005
         end_date: 2009
 
     Experience:
