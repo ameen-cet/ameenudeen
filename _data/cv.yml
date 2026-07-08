@@ -9,13 +9,6 @@ cv:
       username: ameencet
 
   sections:
-    Summary:
-      - >
-        PhD student at the Department of Electrical Engineering, Indian Institute of Science, Bangalore,
-        working with Dr. Sriram Ganapathy at the LEAP Lab on applications of Deep Learning for speech
-        processing. Assistant Professor in the Department of Electronics and Communication Engineering,
-        College of Engineering Trivandrum.
-
     Education:
       - institution: Indian Institute of Science Bangalore
         location: Bangalore, India
@@ -39,14 +32,7 @@ cv:
         degree: BTech
         end_date: 2009
 
-    Research Experience:
-      - company: Codes and Signal Design Lab, Department of Electronic Systems Engineering, IISc Bangalore
-        position: Full Time Research Scholar
-        location: Bangalore, India
-        start_date: 2019-01
-        end_date: 2019-07
-
-    Work Experience:
+    Experience:
       - company: College of Engineering Trivandrum
         position: Assistant Professor, Department of ECE
         location: Trivandrum, India
@@ -58,6 +44,12 @@ cv:
         location: Idukki, India
         start_date: 2019-07
         end_date: 2021-08
+
+      - company: Codes and Signal Design Lab, Department of Electronic Systems Engineering, IISc Bangalore
+        position: Full Time Research Scholar
+        location: Bangalore, India
+        start_date: 2019-01
+        end_date: 2019-07
 
       - company: Muthoot Institute of Technology and Science
         position: Assistant Professor, Department of ECE
