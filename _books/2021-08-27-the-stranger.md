@@ -2,6 +2,7 @@
 layout: book-review
 title: "The Stranger"
 author: "Albert Camus"
+olid: OL6508147M
 released: 1989
 started: 2021-08-27
 stars: 5
