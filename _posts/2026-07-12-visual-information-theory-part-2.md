@@ -3,7 +3,6 @@ layout: distill
 title: "Visual Information Theory, Part 2: Joint Entropy, Mutual Information, and Stochastic Processes"
 description: Extending entropy to two or more variables — joint entropy, conditional entropy, mutual information, fractional bits, and the entropy rate of a stochastic process.
 tags: information-theory entropy tutorial
-giscus_comments: true
 date: 2026-07-12
 featured: true
 
