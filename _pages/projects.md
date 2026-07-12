@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research projects and open-source work in speech processing and audio foundation models.
+description: Research projects and open-source works.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
