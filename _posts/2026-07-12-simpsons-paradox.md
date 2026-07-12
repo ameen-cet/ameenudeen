@@ -11,7 +11,7 @@ toc:
 
 > "Sometimes the numbers are correct, but the conclusion is wrong."
 
-This article is inspired by the philosophy of explanation in Michael Nielsen's essay on building intuition rather than merely presenting facts. So instead of jumping straight to the definition, let's start by feeling why Simpson's Paradox is surprising — and only then explain it.
+This article is inspired by the philosophy of explanation in Michael Nielsen's essay, [*Reinventing Explanation*](https://michaelnielsen.org/reinventing_explanation/), on building intuition rather than merely presenting facts. So instead of jumping straight to the definition, let's start by feeling why Simpson's Paradox is surprising — and only then explain it.
 
 ## Have you ever seen this happen?
 
