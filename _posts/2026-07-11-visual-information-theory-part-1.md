@@ -7,9 +7,6 @@ giscus_comments: true
 date: 2026-07-11
 featured: true
 
-chart:
-  chartjs: true
-
 authors:
   - name: Ameenudeen P E
     url: "/"
@@ -69,40 +66,49 @@ $$
 Entropy is the expected number of bits of surprise you get, on average, from observing $$X$$. It is maximized when probability is spread as evenly as possible across outcomes, and it is zero exactly when the outcome is certain in advance ($$p(x) = 1$$ for some $$x$$) <d-cite key="pinkard2022visual"></d-cite>.
 
 <div class="l-body">
-<canvas id="entropyBarChart"></canvas>
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto; font-family: sans-serif;">
+<style>.axis{stroke:currentColor;stroke-width:1;opacity:0.4;} .grid{stroke:currentColor;stroke-width:1;opacity:0.12;} .lbl{font-size:12px;fill:currentColor;} .lbl2{font-size:11px;fill:currentColor;} .legend{font-size:12px;fill:currentColor;}</style>
+<line x1="55" y1="270.0" x2="565" y2="270.0" class="grid"/>
+<text x="45" y="274.0" text-anchor="end" class="lbl2">0.00</text>
+<line x1="55" y1="210.0" x2="565" y2="210.0" class="grid"/>
+<text x="45" y="214.0" text-anchor="end" class="lbl2">0.25</text>
+<line x1="55" y1="150.0" x2="565" y2="150.0" class="grid"/>
+<text x="45" y="154.0" text-anchor="end" class="lbl2">0.50</text>
+<line x1="55" y1="90.0" x2="565" y2="90.0" class="grid"/>
+<text x="45" y="94.0" text-anchor="end" class="lbl2">0.75</text>
+<line x1="55" y1="30.0" x2="565" y2="30.0" class="grid"/>
+<text x="45" y="34.0" text-anchor="end" class="lbl2">1.00</text>
+<text x="575" y="274.0" text-anchor="start" class="lbl2">0</text>
+<text x="575" y="214.0" text-anchor="start" class="lbl2">1</text>
+<text x="575" y="154.0" text-anchor="start" class="lbl2">2</text>
+<text x="575" y="94.0" text-anchor="start" class="lbl2">3</text>
+<text x="575" y="34.0" text-anchor="start" class="lbl2">4</text>
+<line x1="55" y1="30" x2="55" y2="270" class="axis"/>
+<line x1="565" y1="30" x2="565" y2="270" class="axis"/>
+<line x1="55" y1="270" x2="565" y2="270" class="axis"/>
+<text x="18" y="150.0" text-anchor="middle" class="lbl" transform="rotate(-90 18 150.0)">Probability</text>
+<text x="606" y="150.0" text-anchor="middle" class="lbl" transform="rotate(-90 606 150.0)">Codeword length (bits)</text>
+<rect x="74.1" y="150.0" width="40.8" height="120.0" fill="#5470C6" fill-opacity="0.75"/>
+<rect x="122.6" y="210.0" width="40.8" height="60.0" fill="#EE6666" fill-opacity="0.75"/>
+<text x="118.8" y="288" text-anchor="middle" class="lbl">dog (p=0.5)</text>
+<rect x="201.6" y="210.0" width="40.8" height="60.0" fill="#5470C6" fill-opacity="0.75"/>
+<rect x="250.1" y="150.0" width="40.8" height="120.0" fill="#EE6666" fill-opacity="0.75"/>
+<text x="246.2" y="288" text-anchor="middle" class="lbl">cat (p=0.25)</text>
+<rect x="329.1" y="240.0" width="40.8" height="30.0" fill="#5470C6" fill-opacity="0.75"/>
+<rect x="377.6" y="90.0" width="40.8" height="180.0" fill="#EE6666" fill-opacity="0.75"/>
+<text x="373.8" y="288" text-anchor="middle" class="lbl">fish (p=0.125)</text>
+<rect x="456.6" y="240.0" width="40.8" height="30.0" fill="#5470C6" fill-opacity="0.75"/>
+<rect x="505.1" y="90.0" width="40.8" height="180.0" fill="#EE6666" fill-opacity="0.75"/>
+<text x="501.2" y="288" text-anchor="middle" class="lbl">bird (p=0.125)</text>
+<rect x="55" y="6" width="12" height="12" fill="#5470C6" fill-opacity="0.75"/>
+<text x="73" y="16" class="legend">Probability</text>
+<rect x="185" y="6" width="12" height="12" fill="#EE6666" fill-opacity="0.75"/>
+<text x="203" y="16" class="legend">Optimal codeword length (bits)</text>
+</svg>
 </div>
 <div class="caption">
   Probability and optimal codeword length for four events. The area of each bar (probability × length) is that event's contribution to the entropy; the total area is the entropy itself, 1.75 bits. Data from Olah's dog/cat/fish/bird example <d-cite key="olah2015visual"></d-cite>.
 </div>
-
-```chartjs
-{
-  "type": "bar",
-  "data": {
-    "labels": ["dog (p=0.50)", "cat (p=0.25)", "fish (p=0.125)", "bird (p=0.125)"],
-    "datasets": [
-      {
-        "label": "Probability",
-        "data": [0.5, 0.25, 0.125, 0.125],
-        "backgroundColor": "rgba(84, 112, 198, 0.7)",
-        "yAxisID": "y"
-      },
-      {
-        "label": "Optimal codeword length (bits)",
-        "data": [1, 2, 3, 3],
-        "backgroundColor": "rgba(238, 102, 102, 0.7)",
-        "yAxisID": "y1"
-      }
-    ]
-  },
-  "options": {
-    "scales": {
-      "y": { "type": "linear", "position": "left", "title": { "display": true, "text": "Probability" }, "beginAtZero": true, "max": 1 },
-      "y1": { "type": "linear", "position": "right", "title": { "display": true, "text": "Codeword length (bits)" }, "beginAtZero": true, "max": 4, "grid": { "drawOnChartArea": false } }
-    }
-  }
-}
-```
 
 ## Visualizing joint distributions
 

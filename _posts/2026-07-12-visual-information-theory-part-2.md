@@ -7,9 +7,6 @@ giscus_comments: true
 date: 2026-07-12
 featured: true
 
-chart:
-  chartjs: true
-
 authors:
   - name: Ameenudeen P E
     url: "/"
@@ -197,44 +194,47 @@ $$
 constant for every $$N \ge 1$$, well below the unconditional 2 bits of the first draw. The two definitions of entropy rate — averaging the joint entropy, and the conditional entropy of the next draw given the past — both converge to this same $$\approx 1.549$$ bits as $$N$$ grows, exactly as stationarity predicts:
 
 <div class="l-body">
-<canvas id="entropyRateChart"></canvas>
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto; font-family: sans-serif;">
+<style>.axis{stroke:currentColor;stroke-width:1;opacity:0.4;} .grid{stroke:currentColor;stroke-width:1;opacity:0.12;} .lbl{font-size:12px;fill:currentColor;} .lbl2{font-size:11px;fill:currentColor;} .legend{font-size:12px;fill:currentColor;}</style>
+<line x1="55" y1="295.0" x2="565" y2="295.0" class="grid"/>
+<text x="47" y="299.0" text-anchor="end" class="lbl2">1.4</text>
+<line x1="55" y1="254.2" x2="565" y2="254.2" class="grid"/>
+<text x="47" y="258.2" text-anchor="end" class="lbl2">1.5</text>
+<line x1="55" y1="213.5" x2="565" y2="213.5" class="grid"/>
+<text x="47" y="217.5" text-anchor="end" class="lbl2">1.6</text>
+<line x1="55" y1="172.7" x2="565" y2="172.7" class="grid"/>
+<text x="47" y="176.7" text-anchor="end" class="lbl2">1.7</text>
+<line x1="55" y1="131.9" x2="565" y2="131.9" class="grid"/>
+<text x="47" y="135.9" text-anchor="end" class="lbl2">1.8</text>
+<line x1="55" y1="91.2" x2="565" y2="91.2" class="grid"/>
+<text x="47" y="95.2" text-anchor="end" class="lbl2">1.9</text>
+<line x1="55" y1="50.4" x2="565" y2="50.4" class="grid"/>
+<text x="47" y="54.4" text-anchor="end" class="lbl2">2.0</text>
+<text x="55.0" y="315" text-anchor="middle" class="lbl2">1</text>
+<text x="111.7" y="315" text-anchor="middle" class="lbl2">2</text>
+<text x="168.3" y="315" text-anchor="middle" class="lbl2">3</text>
+<text x="225.0" y="315" text-anchor="middle" class="lbl2">4</text>
+<text x="281.7" y="315" text-anchor="middle" class="lbl2">5</text>
+<text x="338.3" y="315" text-anchor="middle" class="lbl2">6</text>
+<text x="395.0" y="315" text-anchor="middle" class="lbl2">7</text>
+<text x="451.7" y="315" text-anchor="middle" class="lbl2">8</text>
+<text x="508.3" y="315" text-anchor="middle" class="lbl2">9</text>
+<text x="565.0" y="315" text-anchor="middle" class="lbl2">10</text>
+<line x1="55" y1="30" x2="55" y2="295" class="axis"/>
+<line x1="55" y1="295" x2="565" y2="295" class="axis"/>
+<text x="14" y="162.5" text-anchor="middle" class="lbl" transform="rotate(-90 14 162.5)">Entropy rate (bits)</text>
+<text x="310.0" y="332" text-anchor="middle" class="lbl">N</text>
+<path d="M 55.0 50.4 L 111.7 142.4 L 168.3 173.0 L 225.0 188.3 L 281.7 197.6 L 338.3 203.7 L 395.0 208.0 L 451.7 211.3 L 508.3 213.9 L 565.0 215.9" fill="none" stroke="#5470C6" stroke-width="2.5"/><circle cx="55.0" cy="50.4" r="3.5" fill="#5470C6"/><circle cx="111.7" cy="142.4" r="3.5" fill="#5470C6"/><circle cx="168.3" cy="173.0" r="3.5" fill="#5470C6"/><circle cx="225.0" cy="188.3" r="3.5" fill="#5470C6"/><circle cx="281.7" cy="197.6" r="3.5" fill="#5470C6"/><circle cx="338.3" cy="203.7" r="3.5" fill="#5470C6"/><circle cx="395.0" cy="208.0" r="3.5" fill="#5470C6"/><circle cx="451.7" cy="211.3" r="3.5" fill="#5470C6"/><circle cx="508.3" cy="213.9" r="3.5" fill="#5470C6"/><circle cx="565.0" cy="215.9" r="3.5" fill="#5470C6"/>
+<path d="M 55.0 50.4 L 111.7 234.3 L 168.3 234.3 L 225.0 234.3 L 281.7 234.3 L 338.3 234.3 L 395.0 234.3 L 451.7 234.3 L 508.3 234.3 L 565.0 234.3" fill="none" stroke="#EE6666" stroke-width="2.5"/><circle cx="55.0" cy="50.4" r="3.5" fill="#EE6666"/><circle cx="111.7" cy="234.3" r="3.5" fill="#EE6666"/><circle cx="168.3" cy="234.3" r="3.5" fill="#EE6666"/><circle cx="225.0" cy="234.3" r="3.5" fill="#EE6666"/><circle cx="281.7" cy="234.3" r="3.5" fill="#EE6666"/><circle cx="338.3" cy="234.3" r="3.5" fill="#EE6666"/><circle cx="395.0" cy="234.3" r="3.5" fill="#EE6666"/><circle cx="451.7" cy="234.3" r="3.5" fill="#EE6666"/><circle cx="508.3" cy="234.3" r="3.5" fill="#EE6666"/><circle cx="565.0" cy="234.3" r="3.5" fill="#EE6666"/>
+<line x1="55" y1="10" x2="75" y2="10" stroke="#5470C6" stroke-width="2.5"/>
+<text x="81" y="14" class="legend">Average entropy: H(X1,...,Xn)/N</text>
+<line x1="305" y1="10" x2="325" y2="10" stroke="#EE6666" stroke-width="2.5"/>
+<text x="331" y="14" class="legend">Conditional entropy: H(Xn+1 | Xn, ..., X1)</text>
+</svg>
 </div>
 <div class="caption">
   The two definitions of entropy rate for the marble Markov chain, computed exactly. The conditional definition drops immediately to ≈1.549 bits (the first draw aside, every subsequent conditional entropy is identical by stationarity); the averaged-joint-entropy definition decreases more gradually toward the same limit, since the high-entropy first draw is diluted over more terms as N grows. Reproduces the qualitative behavior of Fig. 8d in <d-cite key="pinkard2022visual"></d-cite> with values computed directly from the stated transition probabilities.
 </div>
-
-```chartjs
-{
-  "type": "line",
-  "data": {
-    "labels": [1,2,3,4,5,6,7,8,9,10],
-    "datasets": [
-      {
-        "label": "Average entropy: H(X₁,...,Xₙ)/N",
-        "data": [2.0, 1.7744, 1.6992, 1.6616, 1.639, 1.624, 1.6133, 1.6052, 1.5989, 1.5939],
-        "borderColor": "#5470C6",
-        "backgroundColor": "#5470C6",
-        "fill": false,
-        "tension": 0.15
-      },
-      {
-        "label": "Conditional entropy: H(Xₙ₊₁ | Xₙ, ..., X₁)",
-        "data": [2.0, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488],
-        "borderColor": "#EE6666",
-        "backgroundColor": "#EE6666",
-        "fill": false,
-        "tension": 0.15
-      }
-    ]
-  },
-  "options": {
-    "scales": {
-      "x": { "title": { "display": true, "text": "N" } },
-      "y": { "title": { "display": true, "text": "Entropy rate (bits)" }, "min": 1.4, "max": 2.05 }
-    }
-  }
-}
-```
 
 ### Redundancy of a stochastic process
 
