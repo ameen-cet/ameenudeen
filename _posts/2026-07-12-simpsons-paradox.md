@@ -4,6 +4,7 @@ title: "Simpson's Paradox: When the Same Data Tells Two Different Stories"
 description: An intuitive introduction to Simpson's Paradox — how averages can lie to you without any of the numbers being wrong.
 date: 2026-07-12 12:00:00
 tags: statistics data
+giscus_comments: true
 toc:
   sidebar: left
 ---

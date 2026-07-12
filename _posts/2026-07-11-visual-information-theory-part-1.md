@@ -3,6 +3,7 @@ layout: distill
 title: "Visual Information Theory, Part 1: Probability, Codes, and Entropy"
 description: A visual and mathematically rigorous introduction to information content, entropy, cross-entropy, and KL divergence — for readers who want the intuition and the derivations.
 tags: information-theory entropy tutorial
+giscus_comments: true
 date: 2026-07-11
 featured: true
 
