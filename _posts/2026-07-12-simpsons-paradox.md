@@ -17,7 +17,7 @@ This article is inspired by the philosophy of explanation in Michael Nielsen's e
 
 {% include figure.liquid loading="eager" path="assets/img/simpsons-paradox-classroom.jpg" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
-  A classroom full of students, all preparing for the same kind of exam.
+  College students appearing for a competitive examination, all preparing for the same kind of exam.
 </div>
 
 Imagine two coaching institutes preparing students for the GATE examination.
