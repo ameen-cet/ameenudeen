@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ameen-cet.github.io/ameenudeen/feed.xml" rel="self" type="application/atom+xml"/><link href="https://ameen-cet.github.io/ameenudeen/" rel="alternate" type="text/html" hreflang="en"/><updated>2026-07-08T19:58:49+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">എന്റെ ആദ്യ മലയാളം ബ്ലോഗ്</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2026/malayalam-sample-post/" rel="alternate" type="text/html" title="എന്റെ ആദ്യ മലയാളം ബ്ലോഗ്"/><published>2026-07-08T00:00:00+00:00</published><updated>2026-07-08T00:00:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2026/malayalam-sample-post</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2026/malayalam-sample-post/"><![CDATA[<div style="font-family: 'Noto Sans Malayalam', sans-serif;"> നമസ്കാരം! ഇത് എന്റെ ബ്ലോഗിലെ ആദ്യത്തെ മലയാളം പോസ്റ്റാണ്. ഇവിടെ ഞാൻ എന്റെ ഗവേഷണം, പഠനം, കൂടാതെ മറ്റ് വിഷയങ്ങളെക്കുറിച്ചും മലയാളത്തിൽ എഴുതാൻ ഉദ്ദേശിക്കുന്നു. #### എന്തുകൊണ്ട് മലയാളത്തിൽ? - കൂടുതൽ ആളുകളിലേക്ക് എത്തിച്ചേരാൻ - എന്റെ മാതൃഭാഷയിൽ ആശയങ്ങൾ വ്യക്തമായി പങ്കുവയ്ക്കാൻ - മലയാളം എഴുത്തുകാരെ പ്രോത്സാഹിപ്പിക്കാൻ നന്ദി വായനയ്ക്ക്! </div>]]></content><author><name></name></author><category term="sample-posts"/><category term="malayalam"/><category term="sample"/><summary type="html"><![CDATA[മലയാളത്തിൽ എഴുതിയ ഒരു സാമ്പിൾ ബ്ലോഗ് പോസ്റ്റ്]]></summary></entry><entry><title type="html">Family Photo Gallery</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2026/children/" rel="alternate" type="text/html" title="Family Photo Gallery"/><published>2026-06-24T00:00:00+00:00</published><updated>2026-06-24T00:00:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2026/children</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2026/children/"><![CDATA[<h2 id="gallery">Gallery</h2> <p><a href="/ameenudeen/assets/img/gallery/1.png" data-lightbox="family"> <img src="/ameenudeen/assets/img/gallery/1.png" width="250"/> </a></p> <p><a href="/ameenudeen/assets/img/gallery/2.png" data-lightbox="family"> <img src="/ameenudeen/assets/img/gallery/2.png" width="250"/> </a></p> <p><a href="/ameenudeen/assets/img/gallery/3.png" data-lightbox="family"> <img src="/ameenudeen/assets/img/gallery/3.png" width="250"/> </a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[My personal photo collection]]></summary></entry><entry><title type="html">a post with plotly.js</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2025/plotly</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://ameen-cet.github.io/ameenudeen/feed.xml" rel="self" type="application/atom+xml"/><link href="https://ameen-cet.github.io/ameenudeen/" rel="alternate" type="text/html" hreflang="en"/><updated>2026-07-12T10:13:11+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Visual Information Theory, Part 2: Joint Entropy, Mutual Information, and Stochastic Processes</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2026/visual-information-theory-part-2/" rel="alternate" type="text/html" title="Visual Information Theory, Part 2: Joint Entropy, Mutual Information, and Stochastic Processes"/><published>2026-07-12T00:00:00+00:00</published><updated>2026-07-12T00:00:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2026/visual-information-theory-part-2</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2026/visual-information-theory-part-2/"><![CDATA[<h2 id="recap">Recap</h2> <p><a href="/ameenudeen/blog/2026/visual-information-theory-part-1/">Part 1</a> built up the vocabulary for a single random variable: the information content \(\log_2 \frac{1}{p(x)}\) of an outcome, entropy \(H(X)\) as its probability-weighted average, redundancy, cross-entropy, and KL divergence. All of it concerned one variable at a time. Most interesting questions, though, involve <em>relationships</em> between variables: how much does today’s weather tell us about tomorrow’s? How much do two random variables share? This post extends entropy to two (or more) variables, following the same two sources as Part 1 — Olah’s essay <d-cite key="olah2015visual"></d-cite> and Pinkard &amp; Waller’s tutorial <d-cite key="pinkard2022visual"></d-cite> — and ends with the entropy rate, which generalizes entropy to sequences that are not independent and identically distributed.</p> <h2 id="joint-entropy">Joint entropy</h2> <p>The simplest extension is to ask how much information is needed to communicate the outcome of <em>two</em> variables together. If we flatten the joint distribution \(p(x,y)\) over the product space \(\mathcal{X} \times \mathcal{Y}\) and treat it as a distribution over a single combined variable, entropy applies unchanged:</p> \[H(X,Y) = \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} p(x,y) \log_2 \frac{1}{p(x,y)} \, .\] <p>This is the <strong>joint entropy</strong> — the average number of bits needed to communicate both \(X\) and \(Y\) using a code built for their joint distribution <d-cite key="pinkard2022visual"></d-cite><d-cite key="olah2015visual"></d-cite>. When \(X\) and \(Y\) are independent, \(p(x,y) = p(x)p(y)\), and substituting this in shows \(H(X,Y) = H(X) + H(Y)\): independent information simply adds. When they are dependent, the joint entropy is <em>less</em> than the sum of the individual entropies — some information is shared, and we shouldn’t have to pay for it twice. Quantifying exactly how much is shared is the job of mutual information, below.</p> <h2 id="conditional-entropy">Conditional entropy</h2> <p>Suppose you already know \(Y\). How much <em>more</em> information do you need, on average, to also learn \(X\)? This is the <strong>conditional entropy</strong> \(H(X \mid Y)\): the uncertainty remaining in \(X\) once \(Y\) is known.</p> <p>Start at a single point: if we already know \(Y = y\), the information needed to learn \(X\) is the entropy of the conditional distribution \(p(x \mid y)\),</p> \[H(X \mid y) = \sum_{x \in \mathcal{X}} p(x \mid y) \log_2 \frac{1}{p(x \mid y)} \, .\] <p>Averaging over all possible values of \(y\), weighted by how likely each is, gives the conditional entropy in its usual form:</p> \[H(X \mid Y) = \sum_{y \in \mathcal{Y}} p(y) \sum_{x \in \mathcal{X}} p(x \mid y) \log_2 \frac{1}{p(x \mid y)} = \sum_{x,y} p(x,y) \log_2 \frac{1}{p(x \mid y)} \, .\] <p>A concrete example makes this tangible. Pinkard and Waller consider drawing objects with both a color (\(X\)) and a shape (\(Y\)) at random <d-cite key="pinkard2022visual"></d-cite>. Suppose that, conditioned on the shape being a particular one (say \(\bullet\)), the color is equally likely to be green, yellow, or blue. Then \(H(X \mid Y = \bullet) = \log_2 3 \approx 1.58\) bits: three equally probable outcomes remain even after learning the shape. If instead conditioning on a different shape narrows the color down to a single possibility, the conditional entropy for that value of \(Y\) is exactly zero — no uncertainty is left.</p> <p>Conditional entropy can never exceed the unconditional entropy: \(H(X \mid Y) \le H(X)\), with equality iff \(X\) and \(Y\) are independent. Combined with joint entropy, this gives a clean chain of inequalities,</p> \[H(X,Y) \ge H(X) \ge H(X \mid Y) \ge 0 \, ,\] <p>and an identity that will anchor the next section: \(H(X,Y) = H(Y) + H(X \mid Y)\) — the information in both variables is the information in one, plus whatever’s left in the other after conditioning on it.</p> <h2 id="mutual-information">Mutual information</h2> <p>Joint entropy measures the total information in \(X\) and \(Y\) together; conditional entropy measures what’s left in one after learning the other. The information they have <em>in common</em> — how much observing \(Y\) reduces our uncertainty about \(X\) — is the <strong>mutual information</strong>:</p> \[I(X;Y) = H(X) + H(Y) - H(X,Y) \, .\] <p>The intuition is a counting argument: \(H(X) + H(Y)\) counts the shared information twice (once as part of \(X\), once as part of \(Y\)), while \(H(X,Y)\) counts it once. The difference is exactly one copy of what’s shared <d-cite key="olah2015visual"></d-cite>.</p> <h3 id="pointwise-mutual-information">Pointwise mutual information</h3> <p>Just as entropy has a pointwise predecessor (information content), mutual information has a pointwise version. For a specific pair of outcomes \((x,y)\), the <strong>pointwise mutual information</strong> is</p> \[\log_2 \frac{p(x,y)}{p(x)p(y)} = \log_2\frac{1}{p(x)} - \log_2\frac{1}{p(x\mid y)} \, ,\] <p>the surprise of \(x\) on its own, minus the (typically smaller) surprise of \(x\) once \(y\) is already known <d-cite key="pinkard2022visual"></d-cite>. Averaging this quantity over the joint distribution recovers the usual definition,</p> \[I(X;Y) = \sum_{x \in \mathcal{X}} \sum_{y \in \mathcal{Y}} p(x,y) \log_2 \frac{p(x,y)}{p(x)\,p(y)} \, .\] <p>This expression is worth pausing on, because it is <em>exactly</em> the KL divergence from Part 1 — specifically, the KL divergence between the true joint distribution \(p(x,y)\) and the “naive” product-of-marginals distribution \(p(x)p(y)\) that we’d get by (incorrectly) assuming independence <d-cite key="olah2015visual"></d-cite>. Mutual information is the number of bits you save by understanding the real relationship between \(X\) and \(Y\), instead of assuming they’re independent. Two useful properties follow immediately: mutual information is symmetric, \(I(X;Y) = I(Y;X)\), and it is always non-negative (since KL divergence is), with \(I(X;Y) = 0\) exactly when \(X\) and \(Y\) are independent.</p> <h3 id="how-the-pieces-fit-together">How the pieces fit together</h3> <p>Joint entropy, conditional entropy, and mutual information are not independent concepts — they are different ways of partitioning the same total information, and it helps to see all four quantities laid out together, with area representing bits.</p> <div class="l-body"> <svg viewBox="0 0 520 210" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;"> <style>
+    .box { stroke: currentColor; stroke-width: 1.5; }
+    .lbl { font-family: sans-serif; font-size: 13px; fill: currentColor; text-anchor: middle; }
+    .side { font-family: sans-serif; font-size: 12px; fill: currentColor; text-anchor: start; }
+  </style> <rect x="20" y="15" width="480" height="34" class="box" fill="#5470C6" fill-opacity="0.12"/> <text x="260" y="36" class="lbl">Joint entropy &#160; H(X,Y) = 3 bits</text> <rect x="20" y="65" width="320" height="34" class="box" fill="#91CC75" fill-opacity="0.18"/> <text x="180" y="86" class="lbl">Entropy &#160; H(X) = 2 bits</text> <rect x="340" y="65" width="160" height="34" class="box" fill="#EE6666" fill-opacity="0.18"/> <text x="420" y="86" class="lbl" font-size="12">H(Y|X) = 1</text> <rect x="20" y="115" width="160" height="34" class="box" fill="#EE6666" fill-opacity="0.18"/> <text x="100" y="136" class="lbl" font-size="12">H(X|Y) = 1</text> <rect x="180" y="115" width="320" height="34" class="box" fill="#91CC75" fill-opacity="0.18"/> <text x="340" y="136" class="lbl">Entropy &#160; H(Y) = 2 bits</text> <rect x="180" y="165" width="160" height="34" class="box" fill="#FAC858" fill-opacity="0.35"/> <text x="260" y="186" class="lbl">I(X;Y) = 1 bit</text> <text x="20" y="209" class="side" font-size="11">Width is proportional to bits, in a worked example with H(X) = H(Y) = 2, I(X;Y) = 1.</text> </svg> </div> <div class="caption"> The relationships between joint entropy, entropy, conditional entropy, and mutual information, for a worked example with H(X) = H(Y) = 2 bits and I(X;Y) = 1 bit. Note how the H(X) bar (row 2) and H(Y) bar (row 3) overlap exactly over the mutual information region. Redrawn after the summary figures in <d-cite key="pinkard2022visual"></d-cite> (Fig. 7) and <d-cite key="olah2015visual"></d-cite>. </div> <p>Reading the diagram: \(H(X,Y) = H(X) + H(Y\mid X) = H(Y) + H(X \mid Y)\), and the mutual information is exactly the amount by which \(H(X)\) and \(H(Y)\) overlap. All three of the following are algebraically equivalent expressions for mutual information, and each has its own reading:</p> \[I(X;Y) = H(X) - H(X\mid Y) = H(Y) - H(Y \mid X) = H(X) + H(Y) - H(X,Y) \, .\] <p>The first says mutual information is how much \(Y\) shrinks our uncertainty about \(X\); the second is the same statement with the roles reversed (consistent with symmetry); the third is the counting argument from before.</p> <h2 id="variation-of-information">Variation of information</h2> <p>If mutual information measures what two variables <em>share</em>, its complement measures what they <em>don’t</em>: the <strong>variation of information</strong>,</p> \[V(X,Y) = H(X,Y) - I(X;Y) \, .\] <p>Variation of information is a genuine metric — symmetric, non-negative, and satisfying the triangle inequality — on the space of jointly distributed variables <d-cite key="olah2015visual"></d-cite>. It is zero exactly when knowing one variable tells you the other completely, and it grows as the variables become more independent. It’s worth contrasting this with KL divergence from Part 1: KL divergence measures distance <em>between two distributions</em> over the same variable(s); variation of information measures distance <em>between two jointly distributed variables</em>, within a single distribution.</p> <h2 id="fractional-bits-revisited">Fractional bits, revisited</h2> <p>Part 1 flagged something odd: optimal codeword lengths are frequently fractional, which seems meaningless for a single message. Consider a distribution with two outcomes, \(a\) (probability 71%) and \(b\) (probability 29%). The ideal codeword lengths are \(\log_2\frac{1}{0.71}\approx 0.49\) bits for \(a\) and \(\log_2\frac{1}{0.29}\approx 1.79\) bits for \(b\) — neither a whole number <d-cite key="olah2015visual"></d-cite>.</p> <p>If we must send a single symbol, we’re forced to round, giving an average length of 1 bit (using codewords <code class="language-plaintext highlighter-rouge">0</code> and <code class="language-plaintext highlighter-rouge">1</code>) rather than the entropy \(H \approx 0.87\) bits. But if we encode <em>two</em> draws jointly, something better happens. The four two-symbol outcomes have probabilities \(p(aa) = 0.504\), \(p(ab) = p(ba) = 0.206\), and \(p(bb) = 0.084\); assigning shorter codewords to the more probable pairs and rounding gives an average of about 1.8 bits for <em>two</em> symbols — 0.9 bits per symbol, already better than sending them independently (2 bits for two symbols) <d-cite key="olah2015visual"></d-cite>. As the number of jointly-encoded symbols \(N \to \infty\), the rounding overhead per symbol vanishes and the achievable rate approaches the entropy exactly. This is a special case of the AEP from Part 1: block-encoding the typical set of a large-\(N\) sequence gets arbitrarily close to the entropy bound.</p> <p>(In practice, Huffman coding — essentially the scheme sketched here — needs this kind of symbol-grouping to approach the entropy limit gracefully; arithmetic coding handles fractional bits natively and is asymptotically optimal without grouping <d-cite key="olah2015visual"></d-cite>.)</p> <h2 id="entropy-rate-of-a-stochastic-process">Entropy rate of a stochastic process</h2> <p>Everything so far has assumed a sequence of <em>independent and identically distributed</em> random variables. Real sequences — text, weather, stock prices — are rarely independent: today’s value constrains tomorrow’s. An ordered sequence of random variables \(\mathbf{X} = X_1, X_2, \ldots\), without an independence assumption, is called a <strong>stochastic process</strong> <d-cite key="pinkard2022visual"></d-cite>.</p> <h3 id="two-equivalent-definitions">Two equivalent definitions</h3> <p>In the i.i.d. case, entropy is additive: \(H(X_1, \ldots, X_N) = N \cdot H(X)\), so the <strong>entropy rate</strong> — entropy per symbol — is just \(H(X)\). For a general stochastic process, we need a definition that doesn’t assume this factorization. There are two natural candidates.</p> <p>The first treats entropy rate as the average uncertainty per draw, over all \(N\) draws jointly:</p> \[\frac{1}{N} H(X_1, X_2, \ldots, X_N) \, .\] <p>The second treats it as the uncertainty about the <em>next</em> draw, given everything before it:</p> \[H(X_{N+1} \mid X_N, X_{N-1}, \ldots, X_1) \, .\] <p>For a <strong>stationary</strong> process — one whose joint distribution is shift-invariant, \(p_{X_1,\ldots,X_N} = p_{X_{1+k},\ldots,X_{N+k}}\) for any \(k\) — both definitions converge to the same value as \(N \to \infty\) <d-cite key="pinkard2022visual"></d-cite>.</p> <p>Consider a “magical urn” version of our marble example: the first draw is uniform over four colors (\(H(X_1) = 2\) bits), but every draw after that is more likely to repeat the previous color — \(p(\text{same color}) = \tfrac58\), and \(\tfrac18\) for each of the other three colors, independent of \(N\) (a first-order <strong>Markov chain</strong>). Because each color is still marginally uniform, \(H(X_k) = 2\) bits for every \(k\) in isolation — but the <em>joint</em> entropy of consecutive draws is less than the sum of their individual entropies, because knowing \(X_N\) substantially reduces uncertainty about \(X_{N+1}\) <d-cite key="pinkard2022visual"></d-cite>. Concretely,</p> \[H(X_{N+1} \mid X_N) = -\left(\tfrac58 \log_2 \tfrac58 + 3 \cdot \tfrac18 \log_2 \tfrac18\right) \approx 1.549 \text{ bits} \, ,\] <p>constant for every \(N \ge 1\), well below the unconditional 2 bits of the first draw. The two definitions of entropy rate — averaging the joint entropy, and the conditional entropy of the next draw given the past — both converge to this same \(\approx 1.549\) bits as \(N\) grows, exactly as stationarity predicts:</p> <div class="l-body"> <canvas id="entropyRateChart"></canvas> </div> <div class="caption"> The two definitions of entropy rate for the marble Markov chain, computed exactly. The conditional definition drops immediately to ≈1.549 bits (the first draw aside, every subsequent conditional entropy is identical by stationarity); the averaged-joint-entropy definition decreases more gradually toward the same limit, since the high-entropy first draw is diluted over more terms as N grows. Reproduces the qualitative behavior of Fig. 8d in <d-cite key="pinkard2022visual"></d-cite> with values computed directly from the stated transition probabilities. </div> <pre><code class="language-chartjs">{
+  "type": "line",
+  "data": {
+    "labels": [1,2,3,4,5,6,7,8,9,10],
+    "datasets": [
+      {
+        "label": "Average entropy: H(X₁,...,Xₙ)/N",
+        "data": [2.0, 1.7744, 1.6992, 1.6616, 1.639, 1.624, 1.6133, 1.6052, 1.5989, 1.5939],
+        "borderColor": "#5470C6",
+        "backgroundColor": "#5470C6",
+        "fill": false,
+        "tension": 0.15
+      },
+      {
+        "label": "Conditional entropy: H(Xₙ₊₁ | Xₙ, ..., X₁)",
+        "data": [2.0, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488, 1.5488],
+        "borderColor": "#EE6666",
+        "backgroundColor": "#EE6666",
+        "fill": false,
+        "tension": 0.15
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "x": { "title": { "display": true, "text": "N" } },
+      "y": { "title": { "display": true, "text": "Entropy rate (bits)" }, "min": 1.4, "max": 2.05 }
+    }
+  }
+}
+</code></pre> <h3 id="redundancy-of-a-stochastic-process">Redundancy of a stochastic process</h3> <p>Moving from an i.i.d. sequence to a general stochastic process also forces us to revisit redundancy from Part 1, since it can no longer be defined variable-by-variable. The general definition accounts for the <em>joint</em> entropy against the maximum entropy of the full product space <d-cite key="pinkard2022visual"></d-cite>:</p> \[W(\mathbf{X}) = H_{\max}(\mathcal{X} \times \mathcal{X} \times \cdots) - H(X_1, X_2, \ldots) \, .\] <p>In the marble-urn example, every individual draw is marginally uniform, so \(H(X_k) = H_{\max}(\mathcal{X})\) for each \(k\) in isolation — there is no redundancy variable-by-variable. But the <em>joint</em> distribution is far from the maximum-entropy (independent, uniform) joint distribution, because the outcome of one draw is highly informative about its neighbor. This is exactly why we can guess the next color far better than chance, given the previous one: the redundancy lives in the higher-order dependencies between draws, not in any single draw’s marginal distribution.</p> <h2 id="conclusion">Conclusion</h2> <p>We’ve now built, from first principles, the core quantities of information theory: information content and entropy (Part 1); cross-entropy and KL divergence (Part 1); joint entropy, conditional entropy, and mutual information (this post); and the entropy rate of a stochastic process (this post). Two threads run through all of it. First, every one of these quantities has a coding interpretation — the expected length of some code under some scenario — which is what makes entropy feel inevitable rather than an arbitrary formula. Second, KL divergence quietly underlies more than it first appears to: cross-entropy is entropy plus a KL term, and mutual information <em>is</em> a KL divergence, between a joint distribution and the product of its marginals.</p> <p>This is deliberately not the whole of information theory. Both source texts continue well beyond what we’ve covered here: Pinkard and Waller extend these ideas to continuous random variables and differential entropy, and go on to channel capacity and lossy compression — the second of the “two key problems” their tutorial sets out to address <d-cite key="pinkard2022visual"></d-cite>. Olah’s essay closes with pointers to error-correcting codes and the surprising appearances of entropy in quantum information, thermodynamics, and gambling <d-cite key="olah2015visual"></d-cite>. For those directions, Shannon’s original paper <d-cite key="shannon1948mathematical"></d-cite> and Cover &amp; Thomas’s <em>Elements of Information Theory</em> <d-cite key="cover2006elements"></d-cite> — the standard reference recommended by both of our sources — are the natural next stop.</p>]]></content><author><name>Ameenudeen P E</name></author><category term="information-theory"/><category term="entropy"/><category term="tutorial"/><summary type="html"><![CDATA[Extending entropy to two or more variables — joint entropy, conditional entropy, mutual information, fractional bits, and the entropy rate of a stochastic process.]]></summary></entry><entry><title type="html">Visual Information Theory, Part 1: Probability, Codes, and Entropy</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2026/visual-information-theory-part-1/" rel="alternate" type="text/html" title="Visual Information Theory, Part 1: Probability, Codes, and Entropy"/><published>2026-07-11T00:00:00+00:00</published><updated>2026-07-11T00:00:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2026/visual-information-theory-part-1</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2026/visual-information-theory-part-1/"><![CDATA[<h2 id="why-information-theory">Why information theory</h2> <p>In the 1940s, Claude Shannon gave the informal idea of “information” a precise mathematical footing<d-cite key="shannon1948mathematical"></d-cite>. The resulting theory answers questions that feel intuitive but are hard to pin down without it: How uncertain am I about an outcome? How much does knowing one thing tell me about another? How different are two beliefs about the world?</p> <p>This two-part post builds up the core machinery of information theory — entropy, cross-entropy, KL divergence, joint and conditional entropy, mutual information, and the entropy rate of a stochastic process — visually and rigorously at the same time. It closely follows two sources. The first is Christopher Olah’s essay <em>Visual Information Theory</em>, which builds intuition for entropy and related quantities through codes and areas rather than through the sums directly <d-cite key="olah2015visual"></d-cite>. The second is Pinkard and Waller’s <em>A visual introduction to information theory</em>, a more recent, notation-careful tutorial that formalizes many of the same ideas with figures grounded in a simple marble-drawing experiment <d-cite key="pinkard2022visual"></d-cite>. Part 1 (this post) covers single-variable quantities: information content, entropy, redundancy, typical sequences, cross-entropy, and KL divergence. <a href="/ameenudeen/blog/2026/visual-information-theory-part-2/">Part 2</a> covers quantities involving two or more variables — joint entropy, conditional entropy, mutual information — and closes with the entropy rate of a stochastic process.</p> <p>Throughout, we assume only familiarity with basic probability: random variables, joint and conditional distributions, and expectation.</p> <h2 id="information-reducing-uncertainty">Information: reducing uncertainty</h2> <p>Gaining information means having your uncertainty about something reduced. If I tell you the outcome of a coin flip you haven’t seen, I’ve resolved all your uncertainty about it. If I tell you something you already knew for certain, I’ve given you no information at all.</p> <p>Consider drawing a marble at random from an urn containing marbles of four colors, with replacement, where</p> \[p(\texttt{blue}) = \tfrac{1}{2}, \quad p(\texttt{gray}) = \tfrac{1}{4}, \quad p(\texttt{yellow}) = \tfrac{1}{8}, \quad p(\texttt{green}) = \tfrac{1}{8}.\] <p>Suppose you learn that the marble drawn is <em>not</em> blue. That single fact rules out half of the probability mass, leaving a distribution renormalized over the remaining three colors. Learning a fact that was less likely to be true rules out <em>more</em> probability mass, and hence carries more information — this is precisely why rare events are more informative than common ones <d-cite key="pinkard2022visual"></d-cite>.</p> <p>We can make this quantitative. If ruling out half the probability mass corresponds to one unit of information, then the information content of an outcome \(x\) with probability \(p(x)\) is</p> \[I(x) = \log_2 \frac{1}{p(x)} \, ,\] <p>measured in <strong>bits</strong>. An outcome with probability \(\tfrac12\) carries exactly 1 bit; an outcome with probability \(\tfrac18\) carries 3 bits, because learning it happened is equivalent to eliminating three successive halvings of the probability mass. The <strong>entropy</strong> of a random variable \(X\) is the probability-weighted average information content of its outcomes:</p> \[H(X) = \sum_{x \in \mathcal{X}} p(x) \log_2 \frac{1}{p(x)} \, .\] <p>Entropy is the expected number of bits of surprise you get, on average, from observing \(X\). It is maximized when probability is spread as evenly as possible across outcomes, and it is zero exactly when the outcome is certain in advance (\(p(x) = 1\) for some \(x\)) <d-cite key="pinkard2022visual"></d-cite>.</p> <div class="l-body"> <canvas id="entropyBarChart"></canvas> </div> <div class="caption"> Probability and optimal codeword length for four events. The area of each bar (probability × length) is that event's contribution to the entropy; the total area is the entropy itself, 1.75 bits. Data from Olah's dog/cat/fish/bird example <d-cite key="olah2015visual"></d-cite>. </div> <pre><code class="language-chartjs">{
+  "type": "bar",
+  "data": {
+    "labels": ["dog (p=0.50)", "cat (p=0.25)", "fish (p=0.125)", "bird (p=0.125)"],
+    "datasets": [
+      {
+        "label": "Probability",
+        "data": [0.5, 0.25, 0.125, 0.125],
+        "backgroundColor": "rgba(84, 112, 198, 0.7)",
+        "yAxisID": "y"
+      },
+      {
+        "label": "Optimal codeword length (bits)",
+        "data": [1, 2, 3, 3],
+        "backgroundColor": "rgba(238, 102, 102, 0.7)",
+        "yAxisID": "y1"
+      }
+    ]
+  },
+  "options": {
+    "scales": {
+      "y": { "type": "linear", "position": "left", "title": { "display": true, "text": "Probability" }, "beginAtZero": true, "max": 1 },
+      "y1": { "type": "linear", "position": "right", "title": { "display": true, "text": "Codeword length (bits)" }, "beginAtZero": true, "max": 4, "grid": { "drawOnChartArea": false } }
+    }
+  }
+}
+</code></pre> <h2 id="visualizing-joint-distributions">Visualizing joint distributions</h2> <p>Before going further, it helps to have a way of picturing distributions over <em>two</em> variables at once <d-cite key="olah2015visual"></d-cite>. Suppose we track the weather (sunny 75% of the time, raining 25%) and clothing (t-shirt 62% of the time, coat 38%). If the two are independent — knowing the weather tells us nothing about clothing choice — the joint distribution factors as \(p(x,y) = p(x)\,p(y)\), and a grid of the joint probabilities looks like a simple product of the two marginals: every row is a scaled copy of every other row.</p> <div class="l-body"> <svg viewBox="0 0 460 230" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;"> <style>
+    .gridlabel { font-family: sans-serif; font-size: 13px; fill: currentColor; }
+    .gridtitle { font-family: sans-serif; font-size: 14px; font-weight: 600; fill: currentColor; }
+  </style> <text x="115" y="18" text-anchor="middle" class="gridtitle">Independent</text> <rect x="20" y="30" width="139.5" height="120" fill="#5470C6" fill-opacity="0.55" stroke="currentColor"/> <rect x="159.5" y="30" width="55.5" height="120" fill="#5470C6" fill-opacity="0.30" stroke="currentColor"/> <rect x="20" y="150" width="139.5" height="40" fill="#5470C6" fill-opacity="0.30" stroke="currentColor"/> <rect x="159.5" y="150" width="55.5" height="40" fill="#5470C6" fill-opacity="0.15" stroke="currentColor"/> <text x="90" y="95" text-anchor="middle" class="gridlabel">sun, t-shirt</text> <text x="187" y="95" text-anchor="middle" class="gridlabel">sun, coat</text> <text x="90" y="174" text-anchor="middle" class="gridlabel">rain, t-shirt</text> <text x="187" y="174" text-anchor="middle" class="gridlabel">rain, coat</text> <text x="115" y="210" text-anchor="middle" class="gridlabel">p(x,y) = p(x)·p(y)</text> <text x="345" y="18" text-anchor="middle" class="gridtitle">Correlated</text> <rect x="250" y="30" width="150" height="120" fill="#91CC75" fill-opacity="0.55" stroke="currentColor"/> <rect x="400" y="30" width="45" height="120" fill="#91CC75" fill-opacity="0.12" stroke="currentColor"/> <rect x="250" y="150" width="150" height="40" fill="#91CC75" fill-opacity="0.12" stroke="currentColor"/> <rect x="400" y="150" width="45" height="40" fill="#91CC75" fill-opacity="0.7" stroke="currentColor"/> <text x="325" y="95" text-anchor="middle" class="gridlabel">sun, t-shirt</text> <text x="422" y="95" text-anchor="middle" class="gridlabel" font-size="11">sun, coat</text> <text x="325" y="174" text-anchor="middle" class="gridlabel">rain, t-shirt</text> <text x="422" y="174" text-anchor="middle" class="gridlabel" font-size="11">rain, coat</text> <text x="345" y="210" text-anchor="middle" class="gridlabel">extra mass on the diagonal</text> </svg> </div> <div class="caption"> Left: independent variables produce a grid where every row is a scaled copy of every other row — straight lines all the way through. Right: correlated variables (it's more likely to be a coat on a rainy day) swell some cells and shrink others. </div> <p>When the variables interact, some cells of the grid swell with extra probability (it’s more likely to wear a coat when it’s raining) at the expense of others. The fundamental identity connecting joint and conditional probability, \(p(x,y) = p(x)\cdot p(y\mid x)\), lets us factor any joint distribution one variable at a time — and it is the seed from which joint entropy and conditional entropy (Part 2) will grow.</p> <h2 id="entropy-the-cost-of-encoding">Entropy: the cost of encoding</h2> <p>Entropy has a second, equally important interpretation: it is the <em>shortest possible average length</em>, in bits, of a code for a sequence of outcomes from a distribution <d-cite key="pinkard2022visual"></d-cite><d-cite key="olah2015visual"></d-cite>. This is worth deriving carefully, because the derivation is what makes the formula feel inevitable rather than arbitrary.</p> <p>Suppose we want to communicate a sequence of words drawn from a small vocabulary — say, an imaginary friend who only ever says “dog,” “cat,” “fish,” or “bird,” with probabilities \(\tfrac12, \tfrac14, \tfrac18, \tfrac18\) <d-cite key="olah2015visual"></d-cite>. A <strong>code</strong> assigns each word a binary codeword; to send a message we concatenate the codewords for each word in sequence.</p> <h3 id="prefix-codes-and-the-space-of-codewords">Prefix codes and the space of codewords</h3> <p>If every codeword has the same length, decoding is trivial — split the bitstream every \(k\) bits. But we’d like common words (like “dog”) to get <em>short</em> codewords, so the average message is short. This creates a subtlety: with variable-length codewords, how does the receiver know where one codeword ends and the next begins?</p> <p>The answer is the <strong>prefix property</strong>: no codeword may be a prefix of another. A code with this property is called a <strong>prefix code</strong>, and it is always uniquely decodable — you can read a bitstream left to right and unambiguously identify each codeword as soon as its pattern is complete.</p> <p>The prefix property has a cost. Choosing the codeword <code class="language-plaintext highlighter-rouge">01</code> forbids every longer codeword that starts with <code class="language-plaintext highlighter-rouge">01</code> — <code class="language-plaintext highlighter-rouge">010</code>, <code class="language-plaintext highlighter-rouge">0110101</code>, and so on — because they would be ambiguous with it. A quarter of all possible bitstrings begin with <code class="language-plaintext highlighter-rouge">01</code>, so choosing it as a codeword “spends” a quarter of the total space of possible codewords. In general, a codeword of length \(L\) costs \(2^{-L}\) of the total space <d-cite key="olah2015visual"></d-cite>.</p> <p>The following binary tree shows one valid prefix code for the four-word vocabulary: <code class="language-plaintext highlighter-rouge">0</code> for dog, <code class="language-plaintext highlighter-rouge">10</code> for cat, <code class="language-plaintext highlighter-rouge">110</code> for fish, <code class="language-plaintext highlighter-rouge">111</code> for bird. Every codeword is a leaf, and no codeword is an ancestor of another — that’s the prefix property, drawn as a tree.</p> <div class="l-body"> <svg viewBox="0 0 500 220" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;"> <style>
+    .node { fill: none; stroke: currentColor; stroke-width: 1.5; }
+    .leaf { fill: #5470C6; fill-opacity: 0.15; stroke: currentColor; stroke-width: 1.5; }
+    .lbl { font-family: sans-serif; font-size: 13px; fill: currentColor; text-anchor: middle; }
+    .elbl { font-family: sans-serif; font-size: 12px; fill: currentColor; text-anchor: middle; }
+  </style> <circle cx="60" cy="20" r="4" fill="currentColor"/> <line x1="60" y1="20" x2="60" y2="90" class="node"/> <line x1="60" y1="20" x2="320" y2="90" class="node"/> <line x1="320" y1="90" x2="230" y2="150" class="node"/> <line x1="320" y1="90" x2="410" y2="150" class="node"/> <line x1="410" y1="150" x2="350" y2="200" class="node"/> <line x1="410" y1="150" x2="450" y2="200" class="node"/> <text x="35" y="58" class="elbl">0</text> <text x="185" y="50" class="elbl">1</text> <text x="265" y="118" class="elbl">0</text> <text x="375" y="118" class="elbl">1</text> <text x="368" y="175" class="elbl">0</text> <text x="442" y="175" class="elbl">1</text> <rect x="30" y="90" width="60" height="34" rx="6" class="leaf"/> <text x="60" y="111" class="lbl">dog: 0</text> <rect x="195" y="150" width="70" height="34" rx="6" class="leaf"/> <text x="230" y="171" class="lbl">cat: 10</text> <rect x="310" y="192" width="80" height="26" rx="6" class="leaf"/> <text x="350" y="209" class="lbl" font-size="12">fish: 110</text> <rect x="410" y="192" width="80" height="26" rx="6" class="leaf"/> <text x="450" y="209" class="lbl" font-size="12">bird: 111</text> </svg> </div> <div class="caption"> A prefix code for {dog, cat, fish, bird}. Each word sits at a leaf; the path from the root spells out its codeword. Because every codeword is a leaf, none is a prefix of another. </div> <h3 id="the-optimal-codeword-length">The optimal codeword length</h3> <p>Think of building a code as spending a fixed budget: buying a codeword of length \(L\) costs \(2^{-L}\) of the total space of codewords, and using it costs us \(p(x) \cdot L\) extra bits in our average message length, since it’s used a \(p(x)\) fraction of the time. The natural strategy — spend a fraction \(p(x)\) of the budget on the codeword for \(x\) — turns out to be <em>optimal</em>, not merely reasonable <d-cite key="olah2015visual"></d-cite>. Olah proves this with a marginal argument: at the natural allocation, the benefit-to-cost ratio of shortening any single codeword is exactly 1, the same for every codeword; perturbing away from it (spending \(\epsilon\) more on one codeword and \(\epsilon\) less on another) unbalances the ratios and creates an incentive to shift back. Since this holds for every pair of codewords, the natural allocation cannot be improved.</p> <p>If we spend \(p(x)\) of the budget on the codeword for \(x\), and a codeword of length \(L\) costs \(2^{-L}\), then solving \(2^{-L} = p(x)\) for \(L\) gives the optimal codeword length:</p> \[L(x) = \log_2 \frac{1}{p(x)} \, .\] <p>This is exactly the information content of \(x\) from the previous section — no coincidence. The optimal code assigns each outcome a codeword whose length equals its information content in bits.</p> <h3 id="putting-it-together">Putting it together</h3> <p>The average codeword length under the optimal code is, by definition, the entropy:</p> \[H(X) = \sum_{x} p(x)\, L(x) = \sum_{x} p(x) \log_2 \frac{1}{p(x)} \, .\] <p>For our dog/cat/fish/bird example this works out to \(\tfrac12(1) + \tfrac14(2) + \tfrac18(3) + \tfrac18(3) = 1.75\) bits — and no code, however clever, can do better on average <d-cite key="olah2015visual"></d-cite>. This is a genuine lower bound: <strong>entropy is the shortest possible average encoding length for a sequence of outcomes from a given distribution</strong>, a fact known as the source coding theorem.</p> <p>One wrinkle: optimal codeword lengths are frequently <em>fractional</em> (e.g. \(\log_2 \tfrac{1}{0.71} \approx 0.49\) bits), which is meaningless for a single codeword — you can’t send half a bit. But if you encode <em>several</em> draws jointly, ideal lengths add, and the rounding overhead per event shrinks toward zero as the number of jointly-encoded events grows <d-cite key="olah2015visual"></d-cite>. There is a real sense in which fractional bits are achievable on average, even though no single message can have a fractional length; we will use this idea again in Part 2.</p> <h2 id="redundancy-and-maximum-entropy">Redundancy and maximum entropy</h2> <p>Entropy is maximized when probability is spread as evenly as possible over the outcome space \(\mathcal{X}\). In that case,</p> \[H_{\max}(\mathcal{X}) = \log_2 |\mathcal{X}| \, ,\] <table> <tbody> <tr> <td>where $$</td> <td>\mathcal{X}</td> <td>$$ is the number of possible outcomes <d-cite key="pinkard2022visual"></d-cite>. The gap between this ceiling and the actual entropy of a variable is its <strong>redundancy</strong>:</td> </tr> </tbody> </table> \[W(X) = H_{\max}(\mathcal{X}) - H(X) \, .\] <p>Redundancy quantifies how much shorter our messages become because the distribution is <em>not</em> uniform — the more concentrated the probability mass, the larger the redundancy, and the more compressible the source. A deterministic variable (\(p(x)=1\) for one outcome) has zero entropy and maximum possible redundancy; a uniform variable has zero redundancy, because there is nothing left to exploit.</p> <h2 id="typical-sequences-and-the-aep">Typical sequences and the AEP</h2> <p>Entropy governs a length-\(N\) i.i.d. sequence too: the total information content of \(N\) independent draws is \(N \cdot H(X)\) on average. But individual sequences vary enormously in <em>actual</em> information content — an all-<code class="language-plaintext highlighter-rouge">blue</code> sequence (the single most probable outcome) can be far cheaper to encode than a “typical” one, and far more expensive than a maximally rare one <d-cite key="pinkard2022visual"></d-cite>.</p> <p>A <strong>typical sequence</strong> is one whose information content is close to this average: for small \(\epsilon &gt; 0\),</p> \[H(X) - \epsilon \ \le\ -\frac{1}{N}\log p(x_1, \ldots, x_N) \ \le\ H(X) + \epsilon \, .\] <p>As \(N \to \infty\), the <strong>asymptotic equipartition property (AEP)</strong> kicks in: almost all of the probability mass concentrates onto the typical set, regardless of how small \(\epsilon\) is, and every typical sequence has probability \(\approx 2^{-NH(X)}\). Since probabilities sum to 1, there must be \(\approx 2^{NH(X)}\) typical sequences. This is precisely what makes lossless compression at rate \(H(X)\) achievable: a scheme that assigns a unique length-\(NH(X)\) binary string to every typical sequence, and ignores the (vanishingly probable) rest, is lossless in the limit — and no scheme can reliably do better <d-cite key="pinkard2022visual"></d-cite>.</p> <h2 id="cross-entropy">Cross-entropy</h2> <p>Now suppose two people communicate using the <em>same</em> words but <em>different</em> frequencies. Bob mostly talks about dogs; his wife Alice mostly talks about cats. Bob’s code — optimized for his own distribution \(p\) — is suboptimal when Alice uses it to encode her distribution \(q\), because it assigns short codewords to words Alice rarely uses <d-cite key="olah2015visual"></d-cite>.</p> <p>The average message length when encoding events from \(q\) using the code optimized for \(p\) is the <strong>cross-entropy</strong>:</p> \[H_p(q) = \sum_x q(x) \log_2 \frac{1}{p(x)} \, .\] <p>Cross-entropy is not symmetric — \(H_p(q) \neq H_q(p)\) in general — and this asymmetry is not a technicality; it is the whole point. \(H_q(p)\) is large exactly when there’s an outcome common under \(p\) but rare under \(q\): that outcome gets an unnecessarily long codeword, which hurts badly because \(p\) uses it often. Whether the “large” direction is \(H_p(q)\) or \(H_q(p)\) depends on which distribution is doing the frequent using and which one built the code.</p> <p>Cross-entropy is always at least the entropy of the distribution being encoded, \(H_p(q) \ge H(q)\), with equality iff \(p = q\). This makes it a natural, if asymmetric, measure of how different two distributions are — and it is why cross-entropy is the workhorse loss function for classification in machine learning: minimizing \(H_p(q)\) where \(q\) is the true label distribution and \(p\) is the model’s predicted distribution directly penalizes the model for being confidently wrong <d-cite key="olah2015visual"></d-cite>.</p> <h2 id="kl-divergence">KL divergence</h2> <p>The excess length caused by using the wrong code — the gap between cross-entropy and entropy — is the <strong>Kullback–Leibler (KL) divergence</strong>:</p> \[D_q(p) = H_q(p) - H(p) = \sum_x p(x) \log_2 \frac{p(x)}{q(x)} \, .\] <p>KL divergence is zero exactly when \(p = q\) and grows as the two distributions diverge, which is why it behaves like a “distance” between distributions (though it is not symmetric and does not satisfy the triangle inequality, so it is not a metric in the strict sense) <d-cite key="olah2015visual"></d-cite>. It shows up constantly whenever we want one distribution to be close to another — variational inference, information geometry, and, again, machine learning, where minimizing \(D_q(p)\) between a predicted and target distribution is equivalent to minimizing cross-entropy alone (since \(H(p)\) doesn’t depend on the model).</p> <h2 id="whats-next">What’s next</h2> <p>We now have the vocabulary for a single random variable: information content, entropy, redundancy, cross-entropy, and KL divergence. <a href="/ameenudeen/blog/2026/visual-information-theory-part-2/">Part 2</a> extends all of this to <strong>two or more variables</strong> — joint entropy, conditional entropy, and mutual information — and finishes with the <strong>entropy rate</strong> of a stochastic process, the natural generalization of entropy to sequences that aren’t independent and identically distributed.</p> <p>For a fuller treatment than either source attempts, Shannon’s original paper remains remarkably readable <d-cite key="shannon1948mathematical"></d-cite>, and Cover &amp; Thomas’s <em>Elements of Information Theory</em> is the standard graduate reference <d-cite key="cover2006elements"></d-cite>.</p>]]></content><author><name>Ameenudeen P E</name></author><category term="information-theory"/><category term="entropy"/><category term="tutorial"/><summary type="html"><![CDATA[A visual and mathematically rigorous introduction to information content, entropy, cross-entropy, and KL divergence — for readers who want the intuition and the derivations.]]></summary></entry><entry><title type="html">എന്റെ ആദ്യ മലയാളം ബ്ലോഗ്</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2026/malayalam-sample-post/" rel="alternate" type="text/html" title="എന്റെ ആദ്യ മലയാളം ബ്ലോഗ്"/><published>2026-07-08T00:00:00+00:00</published><updated>2026-07-08T00:00:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2026/malayalam-sample-post</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2026/malayalam-sample-post/"><![CDATA[<div style="font-family: 'Noto Sans Malayalam', sans-serif;"> നമസ്കാരം! ഇത് എന്റെ ബ്ലോഗിലെ ആദ്യത്തെ മലയാളം പോസ്റ്റാണ്. ഇവിടെ ഞാൻ എന്റെ ഗവേഷണം, പഠനം, കൂടാതെ മറ്റ് വിഷയങ്ങളെക്കുറിച്ചും മലയാളത്തിൽ എഴുതാൻ ഉദ്ദേശിക്കുന്നു. #### എന്തുകൊണ്ട് മലയാളത്തിൽ? - കൂടുതൽ ആളുകളിലേക്ക് എത്തിച്ചേരാൻ - എന്റെ മാതൃഭാഷയിൽ ആശയങ്ങൾ വ്യക്തമായി പങ്കുവയ്ക്കാൻ - മലയാളം എഴുത്തുകാരെ പ്രോത്സാഹിപ്പിക്കാൻ നന്ദി വായനയ്ക്ക്! </div>]]></content><author><name></name></author><category term="sample-posts"/><category term="malayalam"/><category term="sample"/><summary type="html"><![CDATA[മലയാളത്തിൽ എഴുതിയ ഒരു സാമ്പിൾ ബ്ലോഗ് പോസ്റ്റ്]]></summary></entry><entry><title type="html">Family Photo Gallery</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2026/children/" rel="alternate" type="text/html" title="Family Photo Gallery"/><published>2026-06-24T00:00:00+00:00</published><updated>2026-06-24T00:00:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2026/children</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2026/children/"><![CDATA[<h2 id="gallery">Gallery</h2> <p><a href="/ameenudeen/assets/img/gallery/1.png" data-lightbox="family"> <img src="/ameenudeen/assets/img/gallery/1.png" width="250"/> </a></p> <p><a href="/ameenudeen/assets/img/gallery/2.png" data-lightbox="family"> <img src="/ameenudeen/assets/img/gallery/2.png" width="250"/> </a></p> <p><a href="/ameenudeen/assets/img/gallery/3.png" data-lightbox="family"> <img src="/ameenudeen/assets/img/gallery/3.png" width="250"/> </a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[My personal photo collection]]></summary></entry><entry><title type="html">a post with plotly.js</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2025/plotly</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
 </span><span class="sb">{
   "data": [
     {
@@ -104,16 +172,16 @@ Content 2
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
 
 <span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="932d6a59-7d35-4f01-81e7-08de8e3948e1" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="932d6a59-7d35-4f01-81e7-08de8e3948e1" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
+</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="e6ee29ab-e098-433c-b105-d93fb223f804" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="e6ee29ab-e098-433c-b105-d93fb223f804" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
 </code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="bfb43f69-add4-43e1-9f5f-db341673aa4e" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="bfb43f69-add4-43e1-9f5f-db341673aa4e" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
+</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="11812195-3137-4632-92a8-969d66fe4a9a" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="11812195-3137-4632-92a8-969d66fe4a9a" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
   <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
 </code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
   </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
 </span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="a93e6b98-e529-43f8-96cb-72fa9e0e8291" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="a93e6b98-e529-43f8-96cb-72fa9e0e8291" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2024/typograms</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="2fb4c02c-9add-43ae-a40e-8d65dd68ee51" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="2fb4c02c-9add-43ae-a40e-8d65dd68ee51" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2024/typograms</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
 </span><span class="sb">+----+
 |    |---&gt; My first diagram!
 +----+</span>
@@ -167,500 +235,4 @@ Content 2
 ||                      ||
 |+----------------------+|
 .------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2024/post-citation</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2024/pseudocode</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2024/code-diff</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
-
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
-
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
-
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
-
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
-
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
-
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
-
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
-
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
-
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry></feed>
+</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://ameen-cet.github.io/ameenudeen/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://ameen-cet.github.io/ameenudeen/blog/2024/post-citation</id><content type="html" xml:base="https://ameen-cet.github.io/ameenudeen/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry></feed>

@@ -1,0 +1,1125 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> information-theory | Ameenudeen P E </title> <meta name="author" content="Ameenudeen P E"> <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/ameenudeen/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons|Noto+Sans+Malayalam:400,500,700&amp;display=swap"> <link defer rel="stylesheet" href="/ameenudeen/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/ameenudeen/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://ameen-cet.github.io/ameenudeen/blog/tag/information-theory/"> <script src="/ameenudeen/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/ameenudeen/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/ameenudeen//"> <span class="font-weight-bold">Ameenudeen</span> P E </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/ameenudeen/">about me </a> </li> <li class="nav-item active"> <a class="nav-link" href="/ameenudeen/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/ameenudeen/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/ameenudeen/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/ameenudeen/books/">bookshelf </a> </li> <li class="nav-item "> <a class="nav-link" href="/ameenudeen/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/ameenudeen/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/ameenudeen/people/">people </a> </li> <li class="nav-item dropdown "> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-nav-dropdown-toggle="true" aria-haspopup="true" aria-expanded="false">submenus </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/ameenudeen/blog/">blog</a> </div> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title"> <i class="fa-solid fa-hashtag fa-sm"></i> information-theory</h1> <p class="post-description">an archive of posts with this tag</p> </header> <article class="archive"> <div class="table-responsive"> <table class="table table-sm table-borderless"> <tr> <th scope="row">Jul 12, 2026</th> <td> <a class="post-link" href="/ameenudeen/blog/2026/visual-information-theory-part-2/">Visual Information Theory, Part 2: Joint Entropy, Mutual Information, and Stochastic Processes</a> </td> </tr> <tr> <th scope="row">Jul 11, 2026</th> <td> <a class="post-link" href="/ameenudeen/blog/2026/visual-information-theory-part-1/">Visual Information Theory, Part 1: Probability, Codes, and Entropy</a> </td> </tr> </table> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Ameenudeen P E. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/ameenudeen/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/ameenudeen/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/ameenudeen//assets/al_math/js/mathjax-setup.js"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script src="/ameenudeen/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/ameenudeen/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/ameenudeen/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/ameenudeen/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/ameenudeen/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/ameenudeen//assets/al_img_tools/js/zoom.js"></script> <script defer src="/ameenudeen/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/ameenudeen//assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/ameenudeen//assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about-me",
+    title: "about me",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/ameenudeen/";
+    },
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ameenudeen/blog/";
+          },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "publications by categories in reversed chronological order. generated by jekyll-scholar.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ameenudeen/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ameenudeen/projects/";
+          },
+        },{id: "nav-bookshelf",
+          title: "bookshelf",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ameenudeen/books/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "PhD student at the Department of Electrical Engineering, Indian Institute of Science, Bangalore, working with Dr. Sriram Ganapathy at the LEAP Lab on applications of Deep Learning for speech processing. Assistant Professor in the Department of Electronics and Communication Engineering, College of Engineering Trivandrum.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ameenudeen/cv/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Course materials, schedules, and resources for classes taught.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ameenudeen/teaching/";
+          },
+        },{id: "nav-people",
+          title: "people",
+          description: "members of the lab or group",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/ameenudeen/people/";
+          },
+        },{id: "dropdown-blog",
+              title: "blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/ameenudeen/blog/";
+              },
+            },{id: "post-visual-information-theory-part-2-joint-entropy-mutual-information-and-stochastic-processes",
+        
+          title: "Visual Information Theory, Part 2: Joint Entropy, Mutual Information, and Stochastic Processes",
+        
+        description: "Extending entropy to two or more variables — joint entropy, conditional entropy, mutual information, fractional bits, and the entropy rate of a stochastic process.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2026/visual-information-theory-part-2/";
+          
+        },
+      },{id: "post-visual-information-theory-part-1-probability-codes-and-entropy",
+        
+          title: "Visual Information Theory, Part 1: Probability, Codes, and Entropy",
+        
+        description: "A visual and mathematically rigorous introduction to information content, entropy, cross-entropy, and KL divergence — for readers who want the intuition and the derivations.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2026/visual-information-theory-part-1/";
+          
+        },
+      },{id: "post-എന്റെ-ആദ്യ-മലയാളം-ബ്ലോഗ്",
+        
+          title: "എന്റെ ആദ്യ മലയാളം ബ്ലോഗ്",
+        
+        description: "മലയാളത്തിൽ എഴുതിയ ഒരു സാമ്പിൾ ബ്ലോഗ് പോസ്റ്റ്",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2026/malayalam-sample-post/";
+          
+        },
+      },{id: "post-family-photo-gallery",
+        
+          title: "Family Photo Gallery",
+        
+        description: "My personal photo collection",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2026/children/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
+        
+          title: "a post with plotly.js",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2025/plotly/";
+          
+        },
+      },{id: "post-a-post-with-image-galleries",
+        
+          title: "a post with image galleries",
+        
+        description: "this is what included image galleries could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/photo-gallery/";
+          
+        },
+      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        
+          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+          
+        },
+      },{id: "post-a-post-with-tabs",
+        
+          title: "a post with tabs",
+        
+        description: "this is what included tabs in a post could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/tabs/";
+          
+        },
+      },{id: "post-a-post-with-typograms",
+        
+          title: "a post with typograms",
+        
+        description: "this is what included typograms code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/typograms/";
+          
+        },
+      },{id: "post-a-post-that-can-be-cited",
+        
+          title: "a post that can be cited",
+        
+        description: "this is what a post that can be cited looks like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/post-citation/";
+          
+        },
+      },{id: "post-a-post-with-pseudo-code",
+        
+          title: "a post with pseudo code",
+        
+        description: "this is what included pseudo code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/pseudocode/";
+          
+        },
+      },{id: "post-a-post-with-code-diff",
+        
+          title: "a post with code diff",
+        
+        description: "this is how you can display code diffs",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/code-diff/";
+          
+        },
+      },{id: "post-a-post-with-advanced-image-components",
+        
+          title: "a post with advanced image components",
+        
+        description: "this is what advanced image components could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/advanced-images/";
+          
+        },
+      },{id: "post-a-post-with-vega-lite",
+        
+          title: "a post with vega lite",
+        
+        description: "this is what included vega lite code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/vega-lite/";
+          
+        },
+      },{id: "post-a-post-with-geojson",
+        
+          title: "a post with geojson",
+        
+        description: "this is what included geojson code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/geojson-map/";
+          
+        },
+      },{id: "post-a-post-with-echarts",
+        
+          title: "a post with echarts",
+        
+        description: "this is what included echarts code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/echarts/";
+          
+        },
+      },{id: "post-a-post-with-chart-js",
+        
+          title: "a post with chart.js",
+        
+        description: "this is what included chart.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2024/chartjs/";
+          
+        },
+      },{id: "post-a-post-with-tikzjax",
+        
+          title: "a post with TikZJax",
+        
+        description: "this is what included TikZ code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2023/tikzjax/";
+          
+        },
+      },{id: "post-a-post-with-bibliography",
+        
+          title: "a post with bibliography",
+        
+        description: "an example of a blog post with bibliography",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2023/post-bibliography/";
+          
+        },
+      },{id: "post-a-post-with-jupyter-notebook",
+        
+          title: "a post with jupyter notebook",
+        
+        description: "an example of a blog post with jupyter notebook",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2023/jupyter-notebook/";
+          
+        },
+      },{id: "post-a-post-with-custom-blockquotes",
+        
+          title: "a post with custom blockquotes",
+        
+        description: "an example of a blog post with custom blockquotes",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2023/custom-blockquotes/";
+          
+        },
+      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+        
+          title: "a post with table of contents on a sidebar",
+        
+        description: "an example of a blog post with table of contents on a sidebar",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2023/sidebar-table-of-contents/";
+          
+        },
+      },{id: "post-a-post-with-audios",
+        
+          title: "a post with audios",
+        
+        description: "this is what included audios could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2023/audios/";
+          
+        },
+      },{id: "post-a-post-with-videos",
+        
+          title: "a post with videos",
+        
+        description: "this is what included videos could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2023/videos/";
+          
+        },
+      },{id: "post-displaying-beautiful-interactive-tables",
+        
+          title: "displaying beautiful interactive tables",
+        
+        description: "an example of how to use interactive tables in al-folio",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2023/tables/";
+          
+        },
+      },{id: "post-a-post-with-table-of-contents",
+        
+          title: "a post with table of contents",
+        
+        description: "an example of a blog post with table of contents",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2023/table-of-contents/";
+          
+        },
+      },{id: "post-a-post-with-giscus-comments",
+        
+          title: "a post with giscus comments",
+        
+        description: "an example of a blog post with giscus comments",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2022/giscus-comments/";
+          
+        },
+      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+        
+          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewbox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+          
+        },
+      },{id: "post-a-post-with-redirect",
+        
+          title: "a post with redirect",
+        
+        description: "you can also redirect to assets like pdf",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/assets/pdf/example_pdf.pdf";
+          
+        },
+      },{id: "post-a-post-with-diagrams",
+        
+          title: "a post with diagrams",
+        
+        description: "an example of a blog post with diagrams",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2021/diagrams/";
+          
+        },
+      },{id: "post-a-distill-style-blog-post",
+        
+          title: "a distill-style blog post",
+        
+        description: "an example of a distill-style blog post and main elements",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2021/distill/";
+          
+        },
+      },{id: "post-a-post-with-twitter",
+        
+          title: "a post with twitter",
+        
+        description: "an example of a blog post with twitter",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2020/twitter/";
+          
+        },
+      },{id: "post-a-post-with-disqus-comments",
+        
+          title: "a post with disqus comments",
+        
+        description: "an example of a blog post with disqus comments",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2015/disqus-comments/";
+          
+        },
+      },{id: "post-a-post-with-math",
+        
+          title: "a post with math",
+        
+        description: "an example of a blog post with some math",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2015/math/";
+          
+        },
+      },{id: "post-a-post-with-code",
+        
+          title: "a post with code",
+        
+        description: "an example of a blog post with some code",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2015/code/";
+          
+        },
+      },{id: "post-a-post-with-images",
+        
+          title: "a post with images",
+        
+        description: "this is what included images could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2015/images/";
+          
+        },
+      },{id: "post-a-post-with-formatting-and-links",
+        
+          title: "a post with formatting and links",
+        
+        description: "march & april, looking forward to summer",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/ameenudeen/blog/2015/formatting-and-links/";
+          
+        },
+      },{id: "books-and-then-there-were-none",
+          title: 'And Then There Were None',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2016-10-25-and-then-there-were-none/";
+            },},{id: "books-strange-case-of-dr-jekyll-and-mr-hyde",
+          title: 'Strange Case of Dr. Jekyll and Mr. Hyde',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2018-03-10-strange-case-of-dr-jekyll-and-mr-hyde/";
+            },},{id: "books-in-the-woods-dublin-murder-squad-1",
+          title: 'In the Woods (Dublin Murder Squad, #1)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2020-04-06-in-the-woods-dublin-murder-squad-1/";
+            },},{id: "books-stocks-for-the-long-run-the-definitive-guide-to-financial-market-returns-and-long-term-investment-strategies",
+          title: 'Stocks for the Long Run : The Definitive Guide to Financial Market Returns...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-03-14-stocks-for-the-long-run-the-definitive-guide-to-financial-ma/";
+            },},{id: "books-man-39-s-search-for-meaning",
+          title: 'Man&#39;s Search for Meaning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-04-26-man-s-search-for-meaning/";
+            },},{id: "books-deep-work-rules-for-focused-success-in-a-distracted-world",
+          title: 'Deep Work: Rules for Focused Success in a Distracted World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-05-10-deep-work-rules-for-focused-success-in-a-distracted-world/";
+            },},{id: "books-the-psychology-of-money-timeless-lessons-on-wealth-greed-and-happiness",
+          title: 'The Psychology of Money: Timeless Lessons on Wealth, Greed, and Happiness',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-06-02-the-psychology-of-money-timeless-lessons-on-wealth-greed-and/";
+            },},{id: "books-skin-in-the-game-the-hidden-asymmetries-in-daily-life",
+          title: 'Skin in the Game: The Hidden Asymmetries in Daily Life',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-06-05-skin-in-the-game-the-hidden-asymmetries-in-daily-life/";
+            },},{id: "books-selected-writings",
+          title: 'Selected Writings',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-06-26-selected-writings/";
+            },},{id: "books-ikigai-the-japanese-secret-to-a-long-and-happy-life-the-little-book-of-hygge-lagom-the-swedish-art-of-balanced-living",
+          title: 'Ikigai: The Japanese Secret to a Long and Happy Life / The Little...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-07-03-ikigai-the-japanese-secret-to-a-long-and-happy-life-the-litt/";
+            },},{id: "books-the-last-girl-my-story-of-captivity-and-my-fight-against-the-islamic-state",
+          title: 'The Last Girl: My Story of Captivity, and My Fight Against the Islamic...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-24-the-last-girl-my-story-of-captivity-and-my-fight-against-the/";
+            },},{id: "books-men-without-women",
+          title: 'Men Without Women',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-26-men-without-women/";
+            },},{id: "books-ആടുജീവിതം-aatujeevitham",
+          title: 'ആടുജീവിതം / Aatujeevitham',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-aatujeevitham/";
+            },},{id: "books-after-the-prophet-the-epic-story-of-the-shia-sunni-split-in-islam",
+          title: 'After the Prophet: The Epic Story of the Shia-Sunni Split in Islam',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-after-the-prophet-the-epic-story-of-the-shia-sunni-split-in/";
+            },},{id: "books-atlas-shrugged",
+          title: 'Atlas Shrugged',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-atlas-shrugged/";
+            },},{id: "books-ബാല്യകാലസഖി-balyakalasakhi",
+          title: 'ബാല്യകാലസഖി | Balyakalasakhi',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-balyakalasakhi/";
+            },},{id: "books-coffee-can-investing-the-low-risk-road-to-stupendous-wealth",
+          title: 'Coffee Can Investing: The Low Risk Road to Stupendous Wealth',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-coffee-can-investing-the-low-risk-road-to-stupendous-wealth/";
+            },},{id: "books-factfulness-ten-reasons-we-39-re-wrong-about-the-world-and-why-things-are-better-than-you-think",
+          title: 'Factfulness: Ten Reasons We&#39;re Wrong About the World – and Why Things Are...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-factfulness-ten-reasons-we-re-wrong-about-the-world-and-why/";
+            },},{id: "books-fooled-by-randomness-the-hidden-role-of-chance-in-life-and-in-the-markets-incerto",
+          title: 'Fooled by Randomness: The Hidden Role of Chance in Life and in the...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-fooled-by-randomness-the-hidden-role-of-chance-in-life-and-i/";
+            },},{id: "books-how-to-avoid-loss-and-earn-consistently-in-the-stock-market-an-easy-to-understand-and-practical-guide-for-every-investor",
+          title: 'How to Avoid Loss and Earn Consistently in the Stock Market: An Easy-To-Understand...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-how-to-avoid-loss-and-earn-consistently-in-the-stock-market/";
+            },},{id: "books-illusions-the-adventures-of-a-reluctant-messiah",
+          title: 'Illusions: The Adventures of a Reluctant Messiah',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-illusions-the-adventures-of-a-reluctant-messiah/";
+            },},{id: "books-jonathan-livingston-seagull",
+          title: 'Jonathan Livingston Seagull',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-jonathan-livingston-seagull/";
+            },},{id: "books-kafka-on-the-shore",
+          title: 'Kafka on the Shore',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-kafka-on-the-shore/";
+            },},{id: "books-മലയാളത്തിന്റെ-സുവര്-ണ്ണ-കഥകള്-പത്മരാജന്-malayalathinte-suvarna-kadhakal-padmarajan",
+          title: 'മലയാളത്തിന്റെ സുവര്‍ണ്ണ കഥകള്‍ - പത്മരാജന്‍ | Malayalathinte Suvarna Kadhakal - Padmarajan',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-malayalathinte-suvarna-kadhakal-padmarajan/";
+            },},{id: "books-malice-detective-kaga-1",
+          title: 'Malice (Detective Kaga, #1)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-malice-detective-kaga-1/";
+            },},{id: "books-messiah-39-s-handbook-reminders-for-the-advanced-soul",
+          title: 'Messiah&#39;s Handbook: Reminders for the Advanced Soul',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-messiah-s-handbook-reminders-for-the-advanced-soul/";
+            },},{id: "books-നാലുകെട്ട്-naalukettu",
+          title: 'നാലുകെട്ട് | Naalukettu',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-naalukettu/";
+            },},{id: "books-നീര്-മാതളം-പൂത്തകാലം-neermatalam-poothakaalam",
+          title: 'നീര്‍മാതളം പൂത്തകാലം | Neermatalam Poothakaalam',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-neermatalam-poothakaalam/";
+            },},{id: "books-norwegian-wood",
+          title: 'Norwegian Wood',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-norwegian-wood/";
+            },},{id: "books-പാത്തുമ്മായുടെ-ആട്-pathummayude-aadu",
+          title: 'പാത്തുമ്മായുടെ ആട് | Pathummayude Aadu',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-pathummayude-aadu/";
+            },},{id: "books-poor-charlie-39-s-almanack-the-wit-and-wisdom-of-charles-t-munger",
+          title: 'Poor Charlie&#39;s Almanack: The Wit and Wisdom of Charles T. Munger',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-poor-charlie-s-almanack-the-wit-and-wisdom-of-charles-t-mung/";
+            },},{id: "books-രണ്ടാമൂഴം-randamoozham",
+          title: 'രണ്ടാമൂഴം | Randamoozham',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-randamoozham/";
+            },},{id: "books-seeking-wisdom-from-darwin-to-munger",
+          title: 'Seeking Wisdom: From Darwin To Munger',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-seeking-wisdom-from-darwin-to-munger/";
+            },},{id: "books-siddhartha",
+          title: 'Siddhartha',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-siddhartha/";
+            },},{id: "books-steppenwolf",
+          title: 'Steppenwolf',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-steppenwolf/";
+            },},{id: "books-steve-jobs",
+          title: 'Steve Jobs',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-steve-jobs/";
+            },},{id: "books-the-almanack-of-naval-ravikant-a-guide-to-wealth-and-happiness",
+          title: 'The Almanack of Naval Ravikant: A Guide to Wealth and Happiness',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-almanack-of-naval-ravikant-a-guide-to-wealth-and-happine/";
+            },},{id: "books-the-devotion-of-suspect-x-detective-galileo-1",
+          title: 'The Devotion of Suspect X (Detective Galileo, #1)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-devotion-of-suspect-x-detective-galileo-1/";
+            },},{id: "books-the-intelligent-investor",
+          title: 'The Intelligent Investor',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-intelligent-investor/";
+            },},{id: "books-the-joys-of-compounding-the-passionate-pursuit-of-lifelong-learning",
+          title: 'The Joys of Compounding: The Passionate Pursuit of Lifelong Learning',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-joys-of-compounding-the-passionate-pursuit-of-lifelong-l/";
+            },},{id: "books-the-kite-runner",
+          title: 'The Kite Runner',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-kite-runner/";
+            },},{id: "books-the-philosophy-book-big-ideas-simply-explained",
+          title: 'The Philosophy Book: Big Ideas Simply Explained',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-philosophy-book-big-ideas-simply-explained/";
+            },},{id: "books-the-richest-man-in-babylon",
+          title: 'The Richest Man in Babylon',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-richest-man-in-babylon/";
+            },},{id: "books-the-stranger",
+          title: 'The Stranger',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-stranger/";
+            },},{id: "books-the-subtle-art-of-not-giving-a-f-ck-a-counterintuitive-approach-to-living-a-good-life",
+          title: 'The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-subtle-art-of-not-giving-a-f-ck-a-counterintuitive-appro/";
+            },},{id: "books-the-unbearable-lightness-of-being",
+          title: 'The Unbearable Lightness of Being',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-unbearable-lightness-of-being/";
+            },},{id: "books-the-way-of-the-strangers",
+          title: 'The Way of the Strangers',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-the-way-of-the-strangers/";
+            },},{id: "books-thinking-fast-and-slow",
+          title: 'Thinking, Fast and Slow',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-27-thinking-fast-and-slow/";
+            },},{id: "books-a-wealth-of-common-sense-why-simplicity-trumps-complexity-in-any-investment-plan-bloomberg",
+          title: 'A Wealth of Common Sense: Why Simplicity Trumps Complexity in Any Investment Plan...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-28-a-wealth-of-common-sense-why-simplicity-trumps-complexity-in/";
+            },},{id: "books-conflicts-of-fitness-islam-america-and-evolutionary-psychology",
+          title: 'Conflicts of Fitness: Islam, America, and Evolutionary Psychology',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-28-conflicts-of-fitness-islam-america-and-evolutionary-psycholo/";
+            },},{id: "books-history-of-islam-3-volumes",
+          title: 'History of Islam (3 Volumes)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-28-history-of-islam-3-volumes/";
+            },},{id: "books-കര്-ണ്ണന്-karnan",
+          title: 'കര്‍ണ്ണന്‍ | Karnan',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-28-karnan/";
+            },},{id: "books-the-first-muslim-the-story-of-muhammad",
+          title: 'The First Muslim: The Story of Muhammad',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-08-29-the-first-muslim-the-story-of-muhammad/";
+            },},{id: "books-anthem",
+          title: 'Anthem',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-09-04-anthem/";
+            },},{id: "books-the-virtue-of-selfishness-a-new-concept-of-egoism",
+          title: 'The Virtue of Selfishness: A New Concept of Egoism',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-09-04-the-virtue-of-selfishness-a-new-concept-of-egoism/";
+            },},{id: "books-we-the-living",
+          title: 'We the Living',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-09-04-we-the-living/";
+            },},{id: "books-the-prophet",
+          title: 'The Prophet',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-09-07-the-prophet/";
+            },},{id: "books-emergency-sex-and-other-desperate-measures-true-stories-from-a-war-zone",
+          title: 'Emergency Sex (And Other Desperate Measures) : True Stories from a War Zone...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-09-09-emergency-sex-and-other-desperate-measures-true-stories-from/";
+            },},{id: "books-true-love-a-practice-for-awakening-the-heart",
+          title: 'True Love: A Practice for Awakening the Heart',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-09-09-true-love-a-practice-for-awakening-the-heart/";
+            },},{id: "books-atomic-habits-an-easy-amp-proven-way-to-build-good-habits-amp-break-bad-ones",
+          title: 'Atomic Habits: An Easy &amp; Proven Way to Build Good Habits &amp; Break...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-09-19-atomic-habits-an-easy-proven-way-to-build-good-habits-break/";
+            },},{id: "books-flow-the-psychology-of-optimal-experience",
+          title: 'Flow: The Psychology of Optimal Experience',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-09-20-flow-the-psychology-of-optimal-experience/";
+            },},{id: "books-originals-how-non-conformists-move-the-world",
+          title: 'Originals: How Non-Conformists Move the World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-09-21-originals-how-non-conformists-move-the-world/";
+            },},{id: "books-principles-life-and-work",
+          title: 'Principles: Life and Work',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-11-08-principles-life-and-work/";
+            },},{id: "books-i-am-malala-the-story-of-the-girl-who-stood-up-for-education-and-was-shot-by-the-taliban",
+          title: 'I Am Malala: The Story of the Girl Who Stood Up for Education...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2021-12-31-i-am-malala-the-story-of-the-girl-who-stood-up-for-education/";
+            },},{id: "books-zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-values-phaedrus-1",
+          title: 'Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values (Phaedrus, #1)...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-01-18-zen-and-the-art-of-motorcycle-maintenance-an-inquiry-into-va/";
+            },},{id: "books-the-dhandho-investor-the-low-risk-value-method-to-high-returns",
+          title: 'The Dhandho Investor: The Low-Risk Value Method to High Returns',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-01-19-the-dhandho-investor-the-low-risk-value-method-to-high-retur/";
+            },},{id: "books-malgudi-days",
+          title: 'Malgudi Days',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-01-21-malgudi-days/";
+            },},{id: "books-super-thinking-the-big-book-of-mental-models",
+          title: 'Super Thinking: The Big Book of Mental Models',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-01-25-super-thinking-the-big-book-of-mental-models/";
+            },},{id: "books-in-praise-of-shadows",
+          title: 'In Praise of Shadows',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-02-03-in-praise-of-shadows/";
+            },},{id: "books-love",
+          title: 'Love',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-02-04-love/";
+            },},{id: "books-seven-japanese-tales-vintage-international",
+          title: 'Seven Japanese Tales (Vintage International)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-02-04-seven-japanese-tales-vintage-international/";
+            },},{id: "books-the-makioka-sisters",
+          title: 'The Makioka Sisters',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-02-04-the-makioka-sisters/";
+            },},{id: "books-tuck-everlasting",
+          title: 'Tuck Everlasting',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-03-02-tuck-everlasting/";
+            },},{id: "books-modern-love-true-stories-of-love-loss-and-redemption",
+          title: 'Modern Love: True Stories of Love, Loss, and Redemption',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-03-03-modern-love-true-stories-of-love-loss-and-redemption/";
+            },},{id: "books-outliers-the-story-of-success",
+          title: 'Outliers: The Story of Success',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-03-03-outliers-the-story-of-success/";
+            },},{id: "books-looking-for-alaska",
+          title: 'Looking for Alaska',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-04-02-looking-for-alaska/";
+            },},{id: "books-soul-in-the-game-the-art-of-a-meaningful-life",
+          title: 'Soul in the Game: The Art of a Meaningful Life',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-07-06-soul-in-the-game-the-art-of-a-meaningful-life/";
+            },},{id: "books-you-39-re-not-listening-what-you-39-re-missing-and-why-it-matters",
+          title: 'You&#39;re Not Listening: What You&#39;re Missing and Why It Matters',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-07-06-you-re-not-listening-what-you-re-missing-and-why-it-matters/";
+            },},{id: "books-desire",
+          title: 'Desire',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-07-07-desire/";
+            },},{id: "books-the-mathematics-of-love-patterns-proofs-and-the-search-for-the-ultimate-equation-ted-books",
+          title: 'The Mathematics of Love: Patterns, Proofs, and the Search for the Ultimate Equation...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-07-07-the-mathematics-of-love-patterns-proofs-and-the-search-for-t/";
+            },},{id: "books-richer-wiser-happier-how-the-world-39-s-greatest-investors-win-in-markets-and-life",
+          title: 'Richer, Wiser, Happier: How the World&#39;s Greatest Investors Win in Markets and Life...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-08-07-richer-wiser-happier-how-the-world-s-greatest-investors-win/";
+            },},{id: "books-common-stocks-and-uncommon-profits-and-other-writings-wiley-investment-classics",
+          title: 'Common Stocks and Uncommon Profits and Other Writings (Wiley Investment Classics)',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-08-16-common-stocks-and-uncommon-profits-and-other-writings-wiley/";
+            },},{id: "books-one-up-on-wall-street-how-to-use-what-you-already-know-to-make-money-in-the-market",
+          title: 'One Up On Wall Street: How to Use What You Already Know to...',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2022-08-16-one-up-on-wall-street-how-to-use-what-you-already-know-to-ma/";
+            },},{id: "books-when-we-cease-to-understand-the-world",
+          title: 'When We Cease to Understand the World',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2023-07-19-when-we-cease-to-understand-the-world/";
+            },},{id: "books-the-fountainhead",
+          title: 'The Fountainhead',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2023-07-25-the-fountainhead/";
+            },},{id: "books-clear-thinking-turning-ordinary-moments-into-extraordinary-results",
+          title: 'Clear Thinking: Turning Ordinary Moments into Extraordinary Results',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2023-10-08-clear-thinking-turning-ordinary-moments-into-extraordinary-r/";
+            },},{id: "books-maxims-for-thinking-analytically-the-wisdom-of-legendary-harvard-professor-richard-zeckhauser",
+          title: 'Maxims for Thinking Analytically: The wisdom of legendary Harvard Professor Richard Zeckhauser',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2023-11-17-maxims-for-thinking-analytically-the-wisdom-of-legendary-har/";
+            },},{id: "books-a-prayer-for-owen-meany",
+          title: 'A Prayer for Owen Meany',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-01-04-a-prayer-for-owen-meany/";
+            },},{id: "books-same-as-ever-a-guide-to-what-never-changes",
+          title: 'Same as Ever: A Guide to What Never Changes',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-01-22-same-as-ever-a-guide-to-what-never-changes/";
+            },},{id: "books-anatomy-of-the-state",
+          title: 'Anatomy of the State',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-01-30-anatomy-of-the-state/";
+            },},{id: "books-the-world-according-to-garp",
+          title: 'The World According to Garp',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-03-04-the-world-according-to-garp/";
+            },},{id: "books-1984",
+          title: '1984',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-04-22-1984/";
+            },},{id: "books-animal-farm",
+          title: 'Animal Farm',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-04-22-animal-farm/";
+            },},{id: "books-ഭാർഗവീനിലയം-bhargaveenilayam",
+          title: 'ഭാർഗവീനിലയം [Bhargaveenilayam]',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-04-22-bhargaveenilayam/";
+            },},{id: "books-logicomix-an-epic-search-for-truth",
+          title: 'Logicomix: An Epic Search for Truth',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-04-22-logicomix-an-epic-search-for-truth/";
+            },},{id: "books-lord-of-the-flies",
+          title: 'Lord of the Flies',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-04-22-lord-of-the-flies/";
+            },},{id: "books-ന്റുപ്പുപ്പാക്കൊരാനേണ്ടാർന്ന്-ntuppuppaakkoraanendaarnnu",
+          title: 'ന്റുപ്പുപ്പാക്കൊരാനേണ്ടാർന്ന്! [Ntuppuppaakkoraanendaarnnu!]',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-04-22-ntuppuppaakkoraanendaarnnu/";
+            },},{id: "books-the-god-of-small-things",
+          title: 'The God of Small Things',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-04-22-the-god-of-small-things/";
+            },},{id: "books-world-of-wonders-in-praise-of-fireflies-whale-sharks-and-other-astonishments",
+          title: 'World of Wonders: In Praise of Fireflies, Whale Sharks, and Other Astonishments',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-04-22-world-of-wonders-in-praise-of-fireflies-whale-sharks-and-oth/";
+            },},{id: "books-parasitic-mind-how-infectious-ideas-are-killing-common-sense",
+          title: 'Parasitic Mind: How Infectious Ideas Are Killing Common Sense',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-04-23-parasitic-mind-how-infectious-ideas-are-killing-common-sense/";
+            },},{id: "books-the-elephant-vanishes",
+          title: 'The Elephant Vanishes',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-06-13-the-elephant-vanishes/";
+            },},{id: "books-never-enough-from-barista-to-billionaire",
+          title: 'Never Enough: From Barista to Billionaire',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-11-04-never-enough-from-barista-to-billionaire/";
+            },},{id: "books-among-the-believers-an-islamic-journey",
+          title: 'Among the Believers : An Islamic Journey',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-11-05-among-the-believers-an-islamic-journey/";
+            },},{id: "books-educated",
+          title: 'Educated',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2024-11-06-educated/";
+            },},{id: "books-the-tyranny-of-merit-what-39-s-become-of-the-common-good",
+          title: 'The Tyranny of Merit: What&#39;s Become of the Common Good?',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2025-06-27-the-tyranny-of-merit-what-s-become-of-the-common-good/";
+            },},{id: "books-poor-charlie-39-s-almanack-the-wit-and-wisdom-of-charles-t-munger",
+          title: 'Poor Charlie&#39;s Almanack: The Wit and Wisdom of Charles T. Munger',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2026-01-10-poor-charlie-s-almanack-reread/";
+            },},{id: "books-mother-mary-comes-to-me",
+          title: 'Mother Mary Comes to Me',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2026-03-05-mother-mary-comes-to-me/";
+            },},{id: "books-india-39-s-money-heist-the-chelembra-bank-robbery",
+          title: 'India&#39;s Money Heist: The Chelembra Bank Robbery',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2026-05-12-indias-money-heist-the-chelembra-bank-robbery/";
+            },},{id: "books-the-mandarins",
+          title: 'The Mandarins',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2026-06-20-the-mandarins/";
+            },},{id: "books-the-book-of-disquiet",
+          title: 'The Book of Disquiet',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/ameenudeen/books/2026-07-05-the-book-of-disquiet/";
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/ameenudeen/news/announcement_2/";
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! <img class="emoji" title=":sparkles:" alt=":sparkles:" src="https://github.githubassets.com/images/icons/emoji/unicode/2728.png" height="20" width="20"> <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">',
+          description: "",
+          section: "News",},{id: "projects-smallalm",
+          title: 'SmallALM',
+          description: "A lightweight 135M-parameter Audio Language Model for audio and speech understanding.",
+          section: "Projects",handler: () => {
+              window.location.href = "/ameenudeen/projects/1_smallalm/";
+            },},{id: "projects-ssast-mlm",
+          title: 'SSAST-MLM',
+          description: "Pre-training the SSAST audio foundation model with a unified masked-prediction (MLM-style) loss.",
+          section: "Projects",handler: () => {
+              window.location.href = "/ameenudeen/projects/2_ssastmlm/";
+            },},{id: "teachings-data-science-fundamentals",
+          title: 'Data Science Fundamentals',
+          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/ameenudeen/teachings/data-science-fundamentals/";
+            },},{id: "teachings-introduction-to-machine-learning",
+          title: 'Introduction to Machine Learning',
+          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/ameenudeen/teachings/introduction-to-machine-learning/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/ameenudeen/assets/rendercv/rendercv_output/Ameenudeen_P_E_CV.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%61%6D%65%65%6E%75%64%65%65%6E@%63%65%74.%61%63.%69%6E", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/ameenudeen//feed.xml", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=Qob-qcoAAAAJ", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/ameenudeen//assets/al_search/js/shortcut-key.js"></script> </body> </html>
