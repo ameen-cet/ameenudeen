@@ -117,34 +117,34 @@ Before going further, it helps to have a way of picturing distributions over *tw
 <div class="l-body">
 <svg viewBox="0 0 460 230" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;">
   <style>
-    .gridlabel { font-family: sans-serif; font-size: 13px; fill: currentColor; }
+    .gridlabel { font-family: sans-serif; font-size: 12px; fill: currentColor; }
     .gridtitle { font-family: sans-serif; font-size: 14px; font-weight: 600; fill: currentColor; }
   </style>
-  <text x="115" y="18" text-anchor="middle" class="gridtitle">Independent</text>
-  <rect x="20" y="30" width="139.5" height="120" fill="#5470C6" fill-opacity="0.55" stroke="currentColor"/>
-  <rect x="159.5" y="30" width="55.5" height="120" fill="#5470C6" fill-opacity="0.30" stroke="currentColor"/>
-  <rect x="20" y="150" width="139.5" height="40" fill="#5470C6" fill-opacity="0.30" stroke="currentColor"/>
-  <rect x="159.5" y="150" width="55.5" height="40" fill="#5470C6" fill-opacity="0.15" stroke="currentColor"/>
-  <text x="90" y="95" text-anchor="middle" class="gridlabel">sun, t-shirt</text>
-  <text x="187" y="95" text-anchor="middle" class="gridlabel">sun, coat</text>
-  <text x="90" y="174" text-anchor="middle" class="gridlabel">rain, t-shirt</text>
-  <text x="187" y="174" text-anchor="middle" class="gridlabel">rain, coat</text>
-  <text x="115" y="210" text-anchor="middle" class="gridlabel">p(x,y) = p(x)·p(y)</text>
+  <text x="120" y="18" text-anchor="middle" class="gridtitle">Independent</text>
+  <rect x="20" y="30" width="124" height="120" fill="#5470C6" fill-opacity="0.55" stroke="currentColor"/>
+  <rect x="144" y="30" width="76" height="120" fill="#5470C6" fill-opacity="0.30" stroke="currentColor"/>
+  <rect x="20" y="150" width="124" height="40" fill="#5470C6" fill-opacity="0.30" stroke="currentColor"/>
+  <rect x="144" y="150" width="76" height="40" fill="#5470C6" fill-opacity="0.15" stroke="currentColor"/>
+  <text x="82" y="95" text-anchor="middle" class="gridlabel">sun, t-shirt</text>
+  <text x="182" y="95" text-anchor="middle" class="gridlabel">sun, coat</text>
+  <text x="82" y="174" text-anchor="middle" class="gridlabel">rain, t-shirt</text>
+  <text x="182" y="174" text-anchor="middle" class="gridlabel">rain, coat</text>
+  <text x="120" y="210" text-anchor="middle" class="gridlabel">p(x,y) = p(x)&#183;p(y)</text>
 
-  <text x="345" y="18" text-anchor="middle" class="gridtitle">Correlated</text>
-  <rect x="250" y="30" width="150" height="120" fill="#91CC75" fill-opacity="0.55" stroke="currentColor"/>
-  <rect x="400" y="30" width="45" height="120" fill="#91CC75" fill-opacity="0.12" stroke="currentColor"/>
-  <rect x="250" y="150" width="150" height="40" fill="#91CC75" fill-opacity="0.12" stroke="currentColor"/>
-  <rect x="400" y="150" width="45" height="40" fill="#91CC75" fill-opacity="0.7" stroke="currentColor"/>
-  <text x="325" y="95" text-anchor="middle" class="gridlabel">sun, t-shirt</text>
-  <text x="422" y="95" text-anchor="middle" class="gridlabel" font-size="11">sun, coat</text>
-  <text x="325" y="174" text-anchor="middle" class="gridlabel">rain, t-shirt</text>
-  <text x="422" y="174" text-anchor="middle" class="gridlabel" font-size="11">rain, coat</text>
-  <text x="345" y="210" text-anchor="middle" class="gridlabel">extra mass on the diagonal</text>
+  <text x="350" y="18" text-anchor="middle" class="gridtitle">Correlated</text>
+  <rect x="250" y="30" width="149.3" height="120" fill="#91CC75" fill-opacity="0.5" stroke="currentColor"/>
+  <rect x="399.3" y="30" width="50.7" height="120" fill="#91CC75" fill-opacity="0.15" stroke="currentColor"/>
+  <rect x="250" y="150" width="48.0" height="40" fill="#91CC75" fill-opacity="0.15" stroke="currentColor"/>
+  <rect x="298.0" y="150" width="152.0" height="40" fill="#91CC75" fill-opacity="0.65" stroke="currentColor"/>
+  <text x="324" y="95" text-anchor="middle" class="gridlabel">sun, t-shirt</text>
+  <text x="424" y="95" text-anchor="middle" class="gridlabel" font-size="10">sun, coat</text>
+  <text x="274" y="174" text-anchor="middle" class="gridlabel" font-size="10">rain, t-shirt</text>
+  <text x="374" y="174" text-anchor="middle" class="gridlabel">rain, coat</text>
+  <text x="350" y="210" text-anchor="middle" class="gridlabel">boundary shifts per row</text>
 </svg>
 </div>
 <div class="caption">
-  Left: independent variables produce a grid where every row is a scaled copy of every other row — straight lines all the way through. Right: correlated variables (it's more likely to be a coat on a rainy day) swell some cells and shrink others.
+  Left: independent variables produce a grid where the t-shirt/coat boundary sits at the same place in every row — a single straight line top to bottom, since the split doesn't depend on the weather. Right: correlated variables (it's more likely to be a coat on a rainy day) shift that boundary row by row — the "rain, coat" cell swells at the expense of "sun, coat", and the split is no longer a single straight line.
 </div>
 
 When the variables interact, some cells of the grid swell with extra probability (it's more likely to wear a coat when it's raining) at the expense of others. The fundamental identity connecting joint and conditional probability, $$p(x,y) = p(x)\cdot p(y\mid x)$$, lets us factor any joint distribution one variable at a time — and it is the seed from which joint entropy and conditional entropy (Part 2) will grow.
