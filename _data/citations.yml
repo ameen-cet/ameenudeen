@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-17'
 papers:
   Qob-qcoAAAAJ:0EnyYjriUFMC:
     citations: 1
@@ -62,7 +62,7 @@ papers:
     title: A Machine Learning Approach to Unusual Object Detection in Faint Satellite Imagery
     year: '2023'
   Qob-qcoAAAAJ:d1gkVwhDpl0C:
-    citations: 67
+    citations: 66
     title: Analysis of hard decision and soft decision decoding algorithms of LDPC codes in AWGN
     year: '2015'
   Qob-qcoAAAAJ:eQOLeE2rZwMC:
