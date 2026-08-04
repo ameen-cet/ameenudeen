@@ -4,13 +4,13 @@ title: Analog and Digital Communication
 description: A fifth-semester core course (PCECT502) analyzing analog and digital communication systems — amplitude and angle modulation, receivers, sampling and quantization, baseband transmission, and digital band-pass modulation.
 instructor: Ameenudeen P E
 year: 2026
-term: August - November
+term: July - October
 location: Department of ECE, College of Engineering Trivandrum
 time: As per class timetable
 course_id: analog-digital-communication
 schedule:
   - week: 1
-    date: Aug 3
+    date: Jul 16
     topic: "Module 1: Amplitude and Angle Modulation"
     description: Block diagram of a communication system, need for modulation. Amplitude modulation — equation and spectrum of the AM signal, DSB-SC, SSB (pilot carrier), and vestigial sideband systems. Narrowband and wideband FM and their spectra, relationship between FM and PM, Carson's rule, pre-emphasis and de-emphasis filtering, comparison of AM and FM, block diagram of an FM receiver. Superheterodyne receivers — image frequency. Noise — external, internal, and white noise.
     materials:
@@ -18,57 +18,57 @@ schedule:
         url: /assets/pdf/analog-digital-communication-syllabus.pdf
 
   - week: 2
-    date: Aug 10
+    date: Jul 23
     topic: "Module 2: Sampling, PCM, and Delta Modulation"
     description: Sampling and quantization, SQNR for uniform quantization, companding. Pulse code modulation — transmitter and receiver. DPCM transmitter and receiver. Delta modulation, slope overload, and line codes.
 
   - week: 3
-    date: Aug 14
+    date: Jul 27
     topic: First Series Examination
     description: Written internal examination covering Modules 1 and 2.
 
   - week: 4
-    date: Aug 17
+    date: Jul 30
     topic: "Module 3: Baseband Data Transmission"
     description: Baseband transmission of digital data through an AWGN channel, mathematical model of ISI, Nyquist criterion for zero ISI, signal modelling for ISI, raised cosine spectrum, equalization, zero-forcing equalizer.
 
   - week: 5
-    date: Aug 24
+    date: Aug 6
     topic: "Module 3: Signal Space Representation"
     description: Geometric representation of signals — Gram-Schmidt procedure, signal space, vector model of the AWGN channel.
 
   - week: 6
-    date: Aug 31
+    date: Aug 13
     topic: "Module 3: Optimum Receivers"
     description: Matched filter and correlation receivers, MAP receiver, maximum likelihood receiver.
 
   - week: 7
-    date: Sep 7
+    date: Aug 20
     topic: "Module 4: BPSK and QPSK"
     description: Digital band-pass modulation schemes — BPSK system and signal constellation, BPSK transmitter and receiver. QPSK system and signal constellations, QPSK transmitter and receiver.
 
   - week: 8
-    date: Sep 14
+    date: Aug 27
     topic: "Module 4: BER Analysis and QAM"
     description: BER analysis of BPSK and QPSK in erfc, plots of BER vs SNR. Quadrature amplitude modulation and signal constellation.
 
   - week: 9
-    date: Sep 21
+    date: Sep 3
     topic: Problem Solving
     description: Worked problems and design exercises drawn from Modules 3 and 4.
 
   - week: 10
-    date: Sep 28
+    date: Sep 10
     topic: Comprehensive Revision
     description: Consolidation across all four modules ahead of the second series examination.
 
   - week: 11
-    date: Oct 9
+    date: Sep 21
     topic: Second Series Examination
     description: Written internal examination covering Modules 3 and 4.
 
   - week: 12
-    date: Oct 12
+    date: Sep 24
     topic: Final Revision
     description: Final consolidation and doubt-clearing session across all four modules.
 ---
