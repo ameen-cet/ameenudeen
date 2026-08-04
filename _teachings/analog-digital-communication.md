@@ -11,64 +11,69 @@ course_id: analog-digital-communication
 schedule:
   - week: 1
     date: Jul 16
-    topic: "Module 1: Amplitude and Angle Modulation"
-    description: Block diagram of a communication system, need for modulation. Amplitude modulation — equation and spectrum of the AM signal, DSB-SC, SSB (pilot carrier), and vestigial sideband systems. Narrowband and wideband FM and their spectra, relationship between FM and PM, Carson's rule, pre-emphasis and de-emphasis filtering, comparison of AM and FM, block diagram of an FM receiver. Superheterodyne receivers — image frequency. Noise — external, internal, and white noise.
+    topic: Amplitude Modulation
+    description: Block diagram of a communication system, need for modulation. Amplitude modulation — equation and spectrum of the AM signal, DSB-SC, SSB (pilot carrier), and vestigial sideband systems.
     materials:
       - name: Course Syllabus
         url: /assets/pdf/analog-digital-communication-syllabus.pdf
 
   - week: 2
     date: Jul 23
-    topic: "Module 2: Sampling, PCM, and Delta Modulation"
-    description: Sampling and quantization, SQNR for uniform quantization, companding. Pulse code modulation — transmitter and receiver. DPCM transmitter and receiver. Delta modulation, slope overload, and line codes.
+    topic: Angle Modulation
+    description: Narrowband and wideband FM and their spectra, relationship between FM and PM, Carson's rule, pre-emphasis and de-emphasis filtering, comparison of AM and FM, block diagram of an FM receiver.
 
   - week: 3
-    date: Jul 27
+    date: Jul 30
+    topic: Receivers and Noise
+    description: Superheterodyne receivers — characteristics of receivers, image frequency. Noise — external, internal, and white noise.
+
+  - week: 4
+    date: Aug 6
+    topic: Sampling, PCM, and Delta Modulation
+    description: Sampling and quantization, SQNR for uniform quantization, companding. Pulse code modulation — transmitter and receiver. DPCM transmitter and receiver. Delta modulation, slope overload, and line codes.
+
+  - week: 5
+    date: Aug 14
     topic: First Series Examination
     description: Written internal examination covering Modules 1 and 2.
 
-  - week: 4
-    date: Jul 30
-    topic: "Module 3: Baseband Data Transmission"
+  - week: 6
+    date: Aug 20
+    topic: Baseband Data Transmission
     description: Baseband transmission of digital data through an AWGN channel, mathematical model of ISI, Nyquist criterion for zero ISI, signal modelling for ISI, raised cosine spectrum, equalization, zero-forcing equalizer.
 
-  - week: 5
-    date: Aug 6
-    topic: "Module 3: Signal Space Representation"
+  - week: 7
+    date: Aug 27
+    topic: Signal Space Representation
     description: Geometric representation of signals — Gram-Schmidt procedure, signal space, vector model of the AWGN channel.
 
-  - week: 6
-    date: Aug 13
-    topic: "Module 3: Optimum Receivers"
+  - week: 8
+    date: Sep 3
+    topic: Optimum Receivers
     description: Matched filter and correlation receivers, MAP receiver, maximum likelihood receiver.
 
-  - week: 7
-    date: Aug 20
-    topic: "Module 4: BPSK and QPSK"
+  - week: 9
+    date: Sep 10
+    topic: BPSK and QPSK
     description: Digital band-pass modulation schemes — BPSK system and signal constellation, BPSK transmitter and receiver. QPSK system and signal constellations, QPSK transmitter and receiver.
 
-  - week: 8
-    date: Aug 27
-    topic: "Module 4: BER Analysis and QAM"
+  - week: 10
+    date: Sep 17
+    topic: BER Analysis and QAM
     description: BER analysis of BPSK and QPSK in erfc, plots of BER vs SNR. Quadrature amplitude modulation and signal constellation.
 
-  - week: 9
-    date: Sep 3
-    topic: Problem Solving
-    description: Worked problems and design exercises drawn from Modules 3 and 4.
-
-  - week: 10
-    date: Sep 10
+  - week: 11
+    date: Sep 24
     topic: Comprehensive Revision
     description: Consolidation across all four modules ahead of the second series examination.
 
-  - week: 11
-    date: Sep 21
+  - week: 12
+    date: Oct 9
     topic: Second Series Examination
     description: Written internal examination covering Modules 3 and 4.
 
-  - week: 12
-    date: Sep 24
+  - week: 13
+    date: Oct 12
     topic: Final Revision
     description: Final consolidation and doubt-clearing session across all four modules.
 ---

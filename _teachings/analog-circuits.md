@@ -11,64 +11,69 @@ course_id: analog-circuits
 schedule:
   - week: 1
     date: Jul 16
-    topic: "Module 1: Wave Shaping Circuits and Biasing"
-    description: RC differentiating and integrating circuits; first order RC low-pass and high-pass filter response to a step input — rise time and bandwidth. Diode clipping and clamping circuits. Need for biasing, DC load line and operating point, BJT biasing (CE configuration) — fixed bias and voltage divider bias design, MOSFET biasing.
+    topic: Wave Shaping Circuits
+    description: RC differentiating and integrating circuits; first order RC low-pass and high-pass filter response to a step input — rise time and bandwidth. Diode clipping and clamping circuits.
     materials:
       - name: Course Syllabus
         url: /assets/pdf/analog-circuits-syllabus.pdf
 
   - week: 2
     date: Jul 23
-    topic: "Module 2: BJT and MOSFET Amplifiers"
-    description: Design of the RC coupled CE amplifier, small-signal analysis using the hybrid-π model (low, mid, and high frequency), Miller effect, cut-off frequency f_β and unity-gain bandwidth f_T. Design of the CS amplifier and its small-signal analysis. Multistage BJT amplifiers, effect of cascading on gain and bandwidth, and the BJT cascode amplifier.
+    topic: Diode Circuits and Biasing
+    description: Need for biasing, DC load line and operating point, BJT biasing (CE configuration) — fixed bias and voltage divider bias design, MOSFET biasing.
 
   - week: 3
-    date: Jul 27
+    date: Jul 30
+    topic: BJT Amplifiers
+    description: Design of the RC coupled CE amplifier, small-signal analysis using the hybrid-π model at low and mid frequency. High-frequency hybrid-π model of the BJT, Miller effect, high-frequency response of a single-stage CE amplifier, short-circuit current gain, cut-off frequency f_β and unity-gain bandwidth f_T.
+
+  - week: 4
+    date: Aug 6
+    topic: MOSFET and Multistage Amplifiers
+    description: Design of the CS amplifier and its small-signal analysis. Multistage BJT amplifiers, effect of cascading on gain and bandwidth, and the BJT cascode amplifier.
+
+  - week: 5
+    date: Aug 14
     topic: First Series Examination
     description: Written internal examination covering Modules 1 and 2.
 
-  - week: 4
-    date: Jul 30
-    topic: "Module 3: Feedback Amplifiers"
+  - week: 6
+    date: Aug 20
+    topic: Feedback Amplifiers
     description: The general feedback structure; effect of negative feedback on gain, bandwidth, noise, and distortion. The four basic feedback topologies; analysis of discrete BJT circuits in voltage-series and voltage-shunt feedback — voltage gain, input and output impedance.
 
-  - week: 5
-    date: Aug 6
-    topic: "Module 3: Oscillators"
+  - week: 7
+    date: Aug 27
+    topic: Oscillators
     description: Classification and the criterion for oscillation. Wien bridge, Hartley, and Crystal oscillators — working principle and design equations; detailed analysis of the Wien bridge oscillator.
 
-  - week: 6
-    date: Aug 13
-    topic: "Module 4: Power Amplifiers"
+  - week: 8
+    date: Sep 3
+    topic: Power Amplifiers
     description: Classification of power amplifiers. Transformer-coupled class A, push-pull class B and class AB, complementary-symmetry class B and class AB, and class C and class D power amplifiers — efficiency and distortion.
 
-  - week: 7
-    date: Aug 20
-    topic: "Module 4: Linear Voltage Regulators"
+  - week: 9
+    date: Sep 10
+    topic: Linear Voltage Regulators
     description: Series and shunt voltage regulators — working and design, load and line regulation, short-circuit protection, and foldback protection.
 
-  - week: 8
-    date: Aug 27
+  - week: 10
+    date: Sep 17
     topic: Problem Solving
     description: Worked problems and design exercises drawn from Modules 3 and 4.
 
-  - week: 9
-    date: Sep 3
-    topic: Doubt Clearing
-    description: Doubt-clearing session on feedback amplifiers, oscillators, power amplifiers, and voltage regulators.
-
-  - week: 10
-    date: Sep 10
+  - week: 11
+    date: Sep 24
     topic: Comprehensive Revision
     description: Consolidation across all four modules ahead of the second series examination.
 
-  - week: 11
-    date: Sep 21
+  - week: 12
+    date: Oct 9
     topic: Second Series Examination
     description: Written internal examination covering Modules 3 and 4.
 
-  - week: 12
-    date: Sep 24
+  - week: 13
+    date: Oct 12
     topic: Final Revision
     description: Final consolidation and doubt-clearing session across all four modules.
 ---
