@@ -64,8 +64,8 @@ schedule:
 
   - week: 11
     date: Oct 12
-    topic: Internal Examination
-    description: Lab internal examination — preparation, conduct of experiments, viva, and timely completion of records are assessed.
+    topic: Internal Examination (Tentative)
+    description: Tentative date for the lab internal examination — preparation, conduct of experiments, viva, and timely completion of records are assessed. Unlike the theory courses, the lab does not follow the fixed series-exam schedule, so this date is subject to change.
 
   - week: 12
     date: Oct 19
