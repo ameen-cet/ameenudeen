@@ -4,7 +4,7 @@ title: Analog Circuits
 description: A third-semester core course (PCECT303) covering wave shaping circuits, BJT/MOSFET biasing and amplifiers, feedback amplifiers, oscillators, power amplifiers, and linear voltage regulators.
 instructor: Ameenudeen P E
 year: 2026
-term: July - October
+term: July - November
 location: Department of ECE, College of Engineering Trivandrum
 time: As per class timetable
 course_id: analog-circuits

@@ -4,7 +4,7 @@ title: Analog Circuits Laboratory
 description: The companion third-semester laboratory course to Analog Circuits — hardware realization of wave shaping, amplifier, oscillator, power amplifier, and voltage regulator circuits, plus SPICE-based simulation experiments.
 instructor: Ameenudeen P E
 year: 2026
-term: July - October
+term: July - November
 location: Department of ECE, College of Engineering Trivandrum
 time: As per class timetable
 course_id: analog-circuits-lab

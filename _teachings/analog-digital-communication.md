@@ -4,7 +4,7 @@ title: Analog and Digital Communication
 description: A fifth-semester core course (PCECT502) analyzing analog and digital communication systems — amplitude and angle modulation, receivers, sampling and quantization, baseband transmission, and digital band-pass modulation.
 instructor: Ameenudeen P E
 year: 2026
-term: July - October
+term: July - November
 location: Department of ECE, College of Engineering Trivandrum
 time: As per class timetable
 course_id: analog-digital-communication
