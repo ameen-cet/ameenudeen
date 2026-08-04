@@ -16,6 +16,10 @@ schedule:
     materials:
       - name: Lab Syllabus
         url: /assets/pdf/analog-circuits-lab-syllabus.pdf
+      - name: Lab Report Instructions
+        url: /assets/pdf/analog-circuits-lab-report-instructions.pdf
+      - name: Lab Report Instructions (LaTeX source)
+        url: /assets/tex/analog-circuits-lab-report-instructions.tex
 
   - week: 2
     date: Jul 23
