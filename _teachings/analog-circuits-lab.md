@@ -70,12 +70,7 @@ schedule:
   - week: 12
     date: Oct 19
     topic: Revision
-    description: Revision and troubleshooting practice ahead of the End Semester Examination.
-
-  - week: 13
-    date: Nov 2
-    topic: End Semester Examination
-    description: University End Semester Examination (ESE) for the laboratory course, as per the official examination timetable. Submission of a duly certified record, endorsed by the external examiner, is required.
+    description: Revision and troubleshooting practice, and finalization of the lab record.
 ---
 
 ## Course Overview
