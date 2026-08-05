@@ -29,4 +29,6 @@ latest_posts:
 
 I am a PhD student at the Department of Electrical Engineering, Indian Institute of Science, Bangalore. I work as an Assistant Professor in the Department of Electronics and Communication Engineering, College of Engineering Trivandrum.
 
-I am working with Dr. Sriram Ganapathy, on the applications of Deep Learning for various speech processing applications. I am associated with the wonderful group of people (and researchers) at LEAP Lab.
+I am working with Dr. Sriram Ganapathy, on the applications of Deep Learning for various speech processing applications. I am associated with the wonderful group of people (and researchers) at [LEAP Lab](http://leap.ee.iisc.ac.in).
+
+My research interests include representation learning for audio, small audio language models and their end-to-end pre-training, information theory, and communication — built on a strong mathematical foundation in probability theory, linear algebra, and calculus for deep learning. I have carried out complete pre-training of self-supervised audio foundation models such as HuBERT and SSAST, and my ongoing projects explore audio language models and new pre-training objectives for them.
