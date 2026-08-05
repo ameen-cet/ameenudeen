@@ -5,5 +5,8 @@ cv_pdf: /assets/rendercv/rendercv_output/Ameenudeen_P_E_CV.pdf # path to your CV
 email: ameenudeen@cet.ac.in # your email address
 rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: Qob-qcoAAAAJ # your Google Scholar ID
+github_username: ameen-cet # your GitHub username
+linkedin_username: ameenudeen-pe-27a4b029 # your LinkedIn username
+x_username: ameencet # your X (Twitter) username
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
