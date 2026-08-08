@@ -43,6 +43,9 @@ schedule:
     date: Aug 20
     topic: Baseband Data Transmission
     description: Baseband transmission of digital data through an AWGN channel, mathematical model of ISI, Nyquist criterion for zero ISI, signal modelling for ISI, raised cosine spectrum, equalization, zero-forcing equalizer.
+    materials:
+      - name: "Lecture Slides: Digital Communication Through Band-Limited Channels"
+        url: /assets/pdf/digital-communication-band-limited-channels.pdf
 
   - week: 7
     date: Aug 27
