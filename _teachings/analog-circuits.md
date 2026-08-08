@@ -16,6 +16,8 @@ schedule:
     materials:
       - name: Course Syllabus
         url: /assets/pdf/analog-circuits-syllabus.pdf
+      - name: Course Project Handbook
+        url: /assets/pdf/analog-circuits-project-handbook.pdf
 
   - week: 2
     date: Jul 23
@@ -88,6 +90,15 @@ Analog Circuits (PCECT303) is a core third-semester course for the Electronics a
 - **CO2** — Analyze single-stage and multistage BJT amplifier circuits using equivalent models.
 - **CO3** — Apply the principles of feedback in the design of oscillators.
 - **CO4** — Design power amplifiers and voltage regulator circuits.
+
+## Course Project
+
+Every team must complete a course project as the Assignment/Micro-project component of the CIE (15 marks) — a hardware build, a SPICE simulation, or both, built around a circuit from the syllabus taken beyond what the lectures or lab cover. Full guidelines, grading rubric, and the week-by-week plan are in the [Course Project Handbook](/assets/pdf/analog-circuits-project-handbook.pdf).
+
+- **Teams**: groups of 3 (4 only with prior approval)
+- **Abstract submission**: due August 15
+- **Mode**: hardware, simulation, or both — the team's choice
+- **Submission**: a shared project folder (schematics, SPICE files, measurements, logbook scan) and a final report; uploading to GitHub is not mandatory
 
 ## Prerequisites
 
