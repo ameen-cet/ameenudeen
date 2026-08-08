@@ -16,6 +16,8 @@ schedule:
     materials:
       - name: Course Syllabus
         url: /assets/pdf/analog-digital-communication-syllabus.pdf
+      - name: Course Project Handbook
+        url: /assets/pdf/analog-digital-communication-project-handbook.pdf
 
   - week: 2
     date: Jul 23
@@ -88,6 +90,14 @@ Analog and Digital Communication (PCECT502) is a core fifth-semester course for 
 - **CO2** — Explain the basic concepts of digital communication.
 - **CO3** — Analyze the baseband transmission of digital data through an AWGN channel.
 - **CO4** — Apply various digital modulation techniques in the design of digital communication systems.
+
+## Course Project
+
+Every team must complete a course project as the Assignment/Micro-project component of the CIE (15 marks) — a Python-based simulation of a communication system built on the concepts covered in class, with a written report and a final viva. Full guidelines, grading criteria, and the week-by-week plan are in the [Course Project Handbook](/assets/pdf/analog-digital-communication-project-handbook.pdf).
+
+- **Teams**: groups of 3 (4 only with prior approval)
+- **Abstract submission**: due August 17
+- **Code repository**: each team's project must be uploaded to GitHub — uploading it into your individual GitHub account is mandatory
 
 ## Prerequisites
 
