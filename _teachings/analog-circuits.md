@@ -93,7 +93,7 @@ Analog Circuits (PCECT303) is a core third-semester course for the Electronics a
 
 ## Course Project
 
-Every team must complete a course project as the Assignment/Micro-project component of the CIE (15 marks) — a hardware build, a SPICE simulation, or both, built around a circuit from the syllabus taken beyond what the lectures or lab cover. Full guidelines, grading rubric, and the week-by-week plan are in the [Course Project Handbook](/assets/pdf/analog-circuits-project-handbook.pdf).
+Every team must complete a course project as the Assignment/Micro-project component of the CIE (15 marks) — a hardware build, a SPICE simulation, or both, built around a circuit from the syllabus taken beyond what the lectures or lab cover. Full guidelines, grading rubric, and the week-by-week plan are in the [Course Project Handbook]({{ '/assets/pdf/analog-circuits-project-handbook.pdf' | relative_url }}).
 
 - **Teams**: groups of 3 (4 only with prior approval)
 - **Abstract submission**: due August 17,2026
