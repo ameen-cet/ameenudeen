@@ -34,3 +34,5 @@ I am curious about how machines can learn meaningful, efficient, and generalizab
 
 
 <!-- My research interests include representation learning for audio, small audio language models and their end-to-end pre-training, information theory, and communication — built on a strong mathematical foundation in probability theory, linear algebra, and calculus for deep learning. I have carried out complete pre-training of self-supervised audio foundation models such as HuBERT and SSAST, and my ongoing projects explore audio language models and new pre-training objectives for them. -->
+
+I remain open to discussions and collaborations with researchers and practitioners working in deep learning, large language models, and related areas, and I welcome the opportunity to mentor students who wish to pursue research in these directions. If you would like to connect, please feel free to write to me at [ameenudeen@cet.ac.in](mailto:ameenudeen@cet.ac.in).
