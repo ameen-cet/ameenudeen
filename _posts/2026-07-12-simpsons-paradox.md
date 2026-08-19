@@ -11,11 +11,12 @@ toc:
 
 > "Sometimes the numbers are correct, but the conclusion is wrong."
 
-This article is inspired by the philosophy of explanation in Michael Nielsen's essay, [*Reinventing Explanation*](https://michaelnielsen.org/reinventing_explanation/), on building intuition rather than merely presenting facts. So instead of jumping straight to the definition, let's start by feeling why Simpson's Paradox is surprising — and only then explain it.
+This article is inspired by the philosophy of explanation in Michael Nielsen's essay, [_Reinventing Explanation_](https://michaelnielsen.org/reinventing_explanation/), on building intuition rather than merely presenting facts. So instead of jumping straight to the definition, let's start by feeling why Simpson's Paradox is surprising — and only then explain it.
 
 ## Have you ever seen this happen?
 
 {% include figure.liquid loading="eager" path="assets/img/simpsons-paradox-classroom.jpg" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
   College students appearing for a competitive examination, all preparing for the same kind of exam.
 </div>
@@ -24,21 +25,21 @@ Imagine two coaching institutes preparing students for the GATE examination.
 
 The newspaper reports the overall pass percentage:
 
-| Institute | Overall pass % |
-|---|---|
-| Institute A | 76% |
-| Institute B | 70% |
+| Institute   | Overall pass % |
+| ----------- | -------------- |
+| Institute A | 76%            |
+| Institute B | 70%            |
 
 Most people would immediately say, "Institute A is clearly better."
 
 Now suppose someone shows another table — this time splitting students by category:
 
-| Student category | Institute A | Institute B |
-|---|---|---|
-| Students with a strong academic background | 95% | 98% |
-| Students needing extra support | 50% | 55% |
+| Student category                           | Institute A | Institute B |
+| ------------------------------------------ | ----------- | ----------- |
+| Students with a strong academic background | 95%         | 98%         |
+| Students needing extra support             | 50%         | 55%         |
 
-Now things get confusing. Institute B performs *better* in both categories. Yet when all students are combined, Institute A still has the higher overall pass percentage.
+Now things get confusing. Institute B performs _better_ in both categories. Yet when all students are combined, Institute A still has the higher overall pass percentage.
 
 How can that be? Did someone make a mistake? Did the newspaper calculate the percentages wrongly? Can both tables be correct at the same time?
 
@@ -66,23 +67,24 @@ Think of cricket. Suppose two batsmen play on different pitches — one mostly b
 
 Imagine two baskets of mangoes. Basket A contains mostly ripe mangoes. Basket B contains mostly unripe mangoes.
 
-Now compare two farmers. Farmer B actually grows slightly better mangoes than Farmer A — in *both* baskets. But Farmer B happened to send many more unripe mangoes to the market. Overall, Farmer A's mangoes may appear better.
+Now compare two farmers. Farmer B actually grows slightly better mangoes than Farmer A — in _both_ baskets. But Farmer B happened to send many more unripe mangoes to the market. Overall, Farmer A's mangoes may appear better.
 
 The problem isn't the quality. The problem is that we mixed together two very different groups.
 
 ## Example from an Indian college
 
 {% include figure.liquid loading="eager" path="assets/img/simpsons-paradox-programming-lab.jpg" class="img-fluid rounded z-depth-1" %}
+
 <div class="caption">
   A programming lab — exactly the kind of class in this example.
 </div>
 
 Suppose two teachers teach Programming. Teacher A teaches one section, Teacher B teaches another. The final university results are:
 
-| Teacher | Overall pass rate |
-|---|---|
-| Teacher A | 82% |
-| Teacher B | 78% |
+| Teacher   | Overall pass rate |
+| --------- | ----------------- |
+| Teacher A | 82%               |
+| Teacher B | 78%               |
 
 So everyone says, "Teacher A is better."
 
@@ -91,18 +93,18 @@ Now the principal separates students based on their Class 12 mathematics marks:
 **Students with strong mathematics**
 
 | Teacher | Pass rate |
-|---|---|
-| A | 92% |
-| B | 95% |
+| ------- | --------- |
+| A       | 92%       |
+| B       | 95%       |
 
 **Students with weaker mathematics**
 
 | Teacher | Pass rate |
-|---|---|
-| A | 60% |
-| B | 65% |
+| ------- | --------- |
+| A       | 60%       |
+| B       | 65%       |
 
-Teacher B performs better in *both* groups. So why is Teacher A's overall result higher? Because Teacher A happened to receive many more students who already had strong mathematics backgrounds, while Teacher B had a much larger number of weaker students. The overall percentage is therefore influenced by who entered the class — not only by how well they were taught.
+Teacher B performs better in _both_ groups. So why is Teacher A's overall result higher? Because Teacher A happened to receive many more students who already had strong mathematics backgrounds, while Teacher B had a much larger number of weaker students. The overall percentage is therefore influenced by who entered the class — not only by how well they were taught.
 
 ## Another everyday example
 
@@ -120,9 +122,10 @@ Always ask whether different kinds of data have been mixed together.
 
 ## Does this mean averages are bad?
 
-Not at all. Averages are useful. But averages answer only one question — they do not explain *why* the average looks the way it does.
+Not at all. Averages are useful. But averages answer only one question — they do not explain _why_ the average looks the way it does.
 
 Whenever you see an average, ask yourself:
+
 - Who is included?
 - Are all people similar?
 - Are different groups being mixed?

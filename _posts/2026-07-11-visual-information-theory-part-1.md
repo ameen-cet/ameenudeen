@@ -35,7 +35,7 @@ toc:
 
 In the 1940s, Claude Shannon gave the informal idea of "information" a precise mathematical footing<d-cite key="shannon1948mathematical"></d-cite>. The resulting theory answers questions that feel intuitive but are hard to pin down without it: How uncertain am I about an outcome? How much does knowing one thing tell me about another? How different are two beliefs about the world?
 
-This two-part post builds up the core machinery of information theory — entropy, cross-entropy, KL divergence, joint and conditional entropy, mutual information, and the entropy rate of a stochastic process — visually and rigorously at the same time. It closely follows two sources. The first is Christopher Olah's essay *Visual Information Theory*, which builds intuition for entropy and related quantities through codes and areas rather than through the sums directly <d-cite key="olah2015visual"></d-cite>. The second is Pinkard and Waller's *A visual introduction to information theory*, a more recent, notation-careful tutorial that formalizes many of the same ideas with figures grounded in a simple marble-drawing experiment <d-cite key="pinkard2022visual"></d-cite>. Part 1 (this post) covers single-variable quantities: information content, entropy, redundancy, typical sequences, cross-entropy, and KL divergence. [Part 2]({% post_url 2026-07-12-visual-information-theory-part-2 %}) covers quantities involving two or more variables — joint entropy, conditional entropy, mutual information — and closes with the entropy rate of a stochastic process.
+This two-part post builds up the core machinery of information theory — entropy, cross-entropy, KL divergence, joint and conditional entropy, mutual information, and the entropy rate of a stochastic process — visually and rigorously at the same time. It closely follows two sources. The first is Christopher Olah's essay _Visual Information Theory_, which builds intuition for entropy and related quantities through codes and areas rather than through the sums directly <d-cite key="olah2015visual"></d-cite>. The second is Pinkard and Waller's _A visual introduction to information theory_, a more recent, notation-careful tutorial that formalizes many of the same ideas with figures grounded in a simple marble-drawing experiment <d-cite key="pinkard2022visual"></d-cite>. Part 1 (this post) covers single-variable quantities: information content, entropy, redundancy, typical sequences, cross-entropy, and KL divergence. [Part 2]({% post_url 2026-07-12-visual-information-theory-part-2 %}) covers quantities involving two or more variables — joint entropy, conditional entropy, mutual information — and closes with the entropy rate of a stochastic process.
 
 Throughout, we assume only familiarity with basic probability: random variables, joint and conditional distributions, and expectation.
 
@@ -49,7 +49,7 @@ $$
 p(\texttt{blue}) = \tfrac{1}{2}, \quad p(\texttt{gray}) = \tfrac{1}{4}, \quad p(\texttt{yellow}) = \tfrac{1}{8}, \quad p(\texttt{green}) = \tfrac{1}{8}.
 $$
 
-Suppose you learn that the marble drawn is *not* blue. That single fact rules out half of the probability mass, leaving a distribution renormalized over the remaining three colors. Learning a fact that was less likely to be true rules out *more* probability mass, and hence carries more information — this is precisely why rare events are more informative than common ones <d-cite key="pinkard2022visual"></d-cite>.
+Suppose you learn that the marble drawn is _not_ blue. That single fact rules out half of the probability mass, leaving a distribution renormalized over the remaining three colors. Learning a fact that was less likely to be true rules out _more_ probability mass, and hence carries more information — this is precisely why rare events are more informative than common ones <d-cite key="pinkard2022visual"></d-cite>.
 
 We can make this quantitative. If ruling out half the probability mass corresponds to one unit of information, then the information content of an outcome $$x$$ with probability $$p(x)$$ is
 
@@ -112,7 +112,7 @@ Entropy is the expected number of bits of surprise you get, on average, from obs
 
 ## Visualizing joint distributions
 
-Before going further, it helps to have a way of picturing distributions over *two* variables at once <d-cite key="olah2015visual"></d-cite>. Suppose we track the weather (sunny 75% of the time, raining 25%) and clothing (t-shirt 62% of the time, coat 38%). If the two are independent — knowing the weather tells us nothing about clothing choice — the joint distribution factors as $$p(x,y) = p(x)\,p(y)$$, and a grid of the joint probabilities looks like a simple product of the two marginals: every row is a scaled copy of every other row.
+Before going further, it helps to have a way of picturing distributions over _two_ variables at once <d-cite key="olah2015visual"></d-cite>. Suppose we track the weather (sunny 75% of the time, raining 25%) and clothing (t-shirt 62% of the time, coat 38%). If the two are independent — knowing the weather tells us nothing about clothing choice — the joint distribution factors as $$p(x,y) = p(x)\,p(y)$$, and a grid of the joint probabilities looks like a simple product of the two marginals: every row is a scaled copy of every other row.
 
 <div class="l-body">
 <svg viewBox="0 0 460 230" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;">
@@ -131,17 +131,18 @@ Before going further, it helps to have a way of picturing distributions over *tw
   <text x="182" y="174" text-anchor="middle" class="gridlabel">rain, coat</text>
   <text x="120" y="210" text-anchor="middle" class="gridlabel">p(x,y) = p(x)&#183;p(y)</text>
 
-  <text x="350" y="18" text-anchor="middle" class="gridtitle">Correlated</text>
-  <rect x="250" y="30" width="149.3" height="120" fill="#91CC75" fill-opacity="0.5" stroke="currentColor"/>
-  <rect x="399.3" y="30" width="50.7" height="120" fill="#91CC75" fill-opacity="0.15" stroke="currentColor"/>
-  <rect x="250" y="150" width="48.0" height="40" fill="#91CC75" fill-opacity="0.15" stroke="currentColor"/>
-  <rect x="298.0" y="150" width="152.0" height="40" fill="#91CC75" fill-opacity="0.65" stroke="currentColor"/>
-  <text x="324" y="95" text-anchor="middle" class="gridlabel">sun, t-shirt</text>
-  <text x="424" y="95" text-anchor="middle" class="gridlabel" font-size="10">sun, coat</text>
-  <text x="274" y="174" text-anchor="middle" class="gridlabel" font-size="10">rain, t-shirt</text>
-  <text x="374" y="174" text-anchor="middle" class="gridlabel">rain, coat</text>
-  <text x="350" y="210" text-anchor="middle" class="gridlabel">boundary shifts per row</text>
+<text x="350" y="18" text-anchor="middle" class="gridtitle">Correlated</text>
+<rect x="250" y="30" width="149.3" height="120" fill="#91CC75" fill-opacity="0.5" stroke="currentColor"/>
+<rect x="399.3" y="30" width="50.7" height="120" fill="#91CC75" fill-opacity="0.15" stroke="currentColor"/>
+<rect x="250" y="150" width="48.0" height="40" fill="#91CC75" fill-opacity="0.15" stroke="currentColor"/>
+<rect x="298.0" y="150" width="152.0" height="40" fill="#91CC75" fill-opacity="0.65" stroke="currentColor"/>
+<text x="324" y="95" text-anchor="middle" class="gridlabel">sun, t-shirt</text>
+<text x="424" y="95" text-anchor="middle" class="gridlabel" font-size="10">sun, coat</text>
+<text x="274" y="174" text-anchor="middle" class="gridlabel" font-size="10">rain, t-shirt</text>
+<text x="374" y="174" text-anchor="middle" class="gridlabel">rain, coat</text>
+<text x="350" y="210" text-anchor="middle" class="gridlabel">boundary shifts per row</text>
 </svg>
+
 </div>
 <div class="caption">
   Left: independent variables produce a grid where the t-shirt/coat boundary sits at the same place in every row — a single straight line top to bottom, since the split doesn't depend on the weather. Right: correlated variables (it's more likely to be a coat on a rainy day) shift that boundary row by row — the "rain, coat" cell swells at the expense of "sun, coat", and the split is no longer a single straight line.
@@ -151,13 +152,13 @@ When the variables interact, some cells of the grid swell with extra probability
 
 ## Entropy: the cost of encoding
 
-Entropy has a second, equally important interpretation: it is the *shortest possible average length*, in bits, of a code for a sequence of outcomes from a distribution <d-cite key="pinkard2022visual"></d-cite><d-cite key="olah2015visual"></d-cite>. This is worth deriving carefully, because the derivation is what makes the formula feel inevitable rather than arbitrary.
+Entropy has a second, equally important interpretation: it is the _shortest possible average length_, in bits, of a code for a sequence of outcomes from a distribution <d-cite key="pinkard2022visual"></d-cite><d-cite key="olah2015visual"></d-cite>. This is worth deriving carefully, because the derivation is what makes the formula feel inevitable rather than arbitrary.
 
 Suppose we want to communicate a sequence of words drawn from a small vocabulary — say, an imaginary friend who only ever says "dog," "cat," "fish," or "bird," with probabilities $$\tfrac12, \tfrac14, \tfrac18, \tfrac18$$ <d-cite key="olah2015visual"></d-cite>. A **code** assigns each word a binary codeword; to send a message we concatenate the codewords for each word in sequence.
 
 ### Prefix codes and the space of codewords
 
-If every codeword has the same length, decoding is trivial — split the bitstream every $$k$$ bits. But we'd like common words (like "dog") to get *short* codewords, so the average message is short. This creates a subtlety: with variable-length codewords, how does the receiver know where one codeword ends and the next begins?
+If every codeword has the same length, decoding is trivial — split the bitstream every $$k$$ bits. But we'd like common words (like "dog") to get _short_ codewords, so the average message is short. This creates a subtlety: with variable-length codewords, how does the receiver know where one codeword ends and the next begins?
 
 The answer is the **prefix property**: no codeword may be a prefix of another. A code with this property is called a **prefix code**, and it is always uniquely decodable — you can read a bitstream left to right and unambiguously identify each codeword as soon as its pattern is complete.
 
@@ -183,12 +184,12 @@ The following binary tree shows one valid prefix code for the four-word vocabula
   <line x1="410" y1="150" x2="350" y2="200" class="node"/>
   <line x1="410" y1="150" x2="450" y2="200" class="node"/>
 
-  <text x="35" y="58" class="elbl">0</text>
-  <text x="185" y="50" class="elbl">1</text>
-  <text x="265" y="118" class="elbl">0</text>
-  <text x="375" y="118" class="elbl">1</text>
-  <text x="368" y="175" class="elbl">0</text>
-  <text x="442" y="175" class="elbl">1</text>
+<text x="35" y="58" class="elbl">0</text>
+<text x="185" y="50" class="elbl">1</text>
+<text x="265" y="118" class="elbl">0</text>
+<text x="375" y="118" class="elbl">1</text>
+<text x="368" y="175" class="elbl">0</text>
+<text x="442" y="175" class="elbl">1</text>
 
   <rect x="30" y="90" width="60" height="34" rx="6" class="leaf"/>
   <text x="60" y="111" class="lbl">dog: 0</text>
@@ -209,7 +210,7 @@ The following binary tree shows one valid prefix code for the four-word vocabula
 
 ### The optimal codeword length
 
-Think of building a code as spending a fixed budget: buying a codeword of length $$L$$ costs $$2^{-L}$$ of the total space of codewords, and using it costs us $$p(x) \cdot L$$ extra bits in our average message length, since it's used a $$p(x)$$ fraction of the time. The natural strategy — spend a fraction $$p(x)$$ of the budget on the codeword for $$x$$ — turns out to be *optimal*, not merely reasonable <d-cite key="olah2015visual"></d-cite>. Olah proves this with a marginal argument: at the natural allocation, the benefit-to-cost ratio of shortening any single codeword is exactly 1, the same for every codeword; perturbing away from it (spending $$\epsilon$$ more on one codeword and $$\epsilon$$ less on another) unbalances the ratios and creates an incentive to shift back. Since this holds for every pair of codewords, the natural allocation cannot be improved.
+Think of building a code as spending a fixed budget: buying a codeword of length $$L$$ costs $$2^{-L}$$ of the total space of codewords, and using it costs us $$p(x) \cdot L$$ extra bits in our average message length, since it's used a $$p(x)$$ fraction of the time. The natural strategy — spend a fraction $$p(x)$$ of the budget on the codeword for $$x$$ — turns out to be _optimal_, not merely reasonable <d-cite key="olah2015visual"></d-cite>. Olah proves this with a marginal argument: at the natural allocation, the benefit-to-cost ratio of shortening any single codeword is exactly 1, the same for every codeword; perturbing away from it (spending $$\epsilon$$ more on one codeword and $$\epsilon$$ less on another) unbalances the ratios and creates an incentive to shift back. Since this holds for every pair of codewords, the natural allocation cannot be improved.
 
 If we spend $$p(x)$$ of the budget on the codeword for $$x$$, and a codeword of length $$L$$ costs $$2^{-L}$$, then solving $$2^{-L} = p(x)$$ for $$L$$ gives the optimal codeword length:
 
@@ -229,7 +230,7 @@ $$
 
 For our dog/cat/fish/bird example this works out to $$\tfrac12(1) + \tfrac14(2) + \tfrac18(3) + \tfrac18(3) = 1.75$$ bits — and no code, however clever, can do better on average <d-cite key="olah2015visual"></d-cite>. This is a genuine lower bound: **entropy is the shortest possible average encoding length for a sequence of outcomes from a given distribution**, a fact known as the source coding theorem.
 
-One wrinkle: optimal codeword lengths are frequently *fractional* (e.g. $$\log_2 \tfrac{1}{0.71} \approx 0.49$$ bits), which is meaningless for a single codeword — you can't send half a bit. But if you encode *several* draws jointly, ideal lengths add, and the rounding overhead per event shrinks toward zero as the number of jointly-encoded events grows <d-cite key="olah2015visual"></d-cite>. There is a real sense in which fractional bits are achievable on average, even though no single message can have a fractional length; we will use this idea again in Part 2.
+One wrinkle: optimal codeword lengths are frequently _fractional_ (e.g. $$\log_2 \tfrac{1}{0.71} \approx 0.49$$ bits), which is meaningless for a single codeword — you can't send half a bit. But if you encode _several_ draws jointly, ideal lengths add, and the rounding overhead per event shrinks toward zero as the number of jointly-encoded events grows <d-cite key="olah2015visual"></d-cite>. There is a real sense in which fractional bits are achievable on average, even though no single message can have a fractional length; we will use this idea again in Part 2.
 
 ## Redundancy and maximum entropy
 
@@ -245,11 +246,11 @@ $$
 W(X) = H_{\max}(\mathcal{X}) - H(X) \, .
 $$
 
-Redundancy quantifies how much shorter our messages become because the distribution is *not* uniform — the more concentrated the probability mass, the larger the redundancy, and the more compressible the source. A deterministic variable ($$p(x)=1$$ for one outcome) has zero entropy and maximum possible redundancy; a uniform variable has zero redundancy, because there is nothing left to exploit.
+Redundancy quantifies how much shorter our messages become because the distribution is _not_ uniform — the more concentrated the probability mass, the larger the redundancy, and the more compressible the source. A deterministic variable ($$p(x)=1$$ for one outcome) has zero entropy and maximum possible redundancy; a uniform variable has zero redundancy, because there is nothing left to exploit.
 
 ## Typical sequences and the AEP
 
-Entropy governs a length-$$N$$ i.i.d. sequence too: the total information content of $$N$$ independent draws is $$N \cdot H(X)$$ on average. But individual sequences vary enormously in *actual* information content — an all-`blue` sequence (the single most probable outcome) can be far cheaper to encode than a "typical" one, and far more expensive than a maximally rare one <d-cite key="pinkard2022visual"></d-cite>.
+Entropy governs a length-$$N$$ i.i.d. sequence too: the total information content of $$N$$ independent draws is $$N \cdot H(X)$$ on average. But individual sequences vary enormously in _actual_ information content — an all-`blue` sequence (the single most probable outcome) can be far cheaper to encode than a "typical" one, and far more expensive than a maximally rare one <d-cite key="pinkard2022visual"></d-cite>.
 
 A **typical sequence** is one whose information content is close to this average: for small $$\epsilon > 0$$,
 
@@ -261,7 +262,7 @@ As $$N \to \infty$$, the **asymptotic equipartition property (AEP)** kicks in: a
 
 ## Cross-entropy
 
-Now suppose two people communicate using the *same* words but *different* frequencies. Bob mostly talks about dogs; his wife Alice mostly talks about cats. Bob's code — optimized for his own distribution $$p$$ — is suboptimal when Alice uses it to encode her distribution $$q$$, because it assigns short codewords to words Alice rarely uses <d-cite key="olah2015visual"></d-cite>.
+Now suppose two people communicate using the _same_ words but _different_ frequencies. Bob mostly talks about dogs; his wife Alice mostly talks about cats. Bob's code — optimized for his own distribution $$p$$ — is suboptimal when Alice uses it to encode her distribution $$q$$, because it assigns short codewords to words Alice rarely uses <d-cite key="olah2015visual"></d-cite>.
 
 The average message length when encoding events from $$q$$ using the code optimized for $$p$$ is the **cross-entropy**:
 
@@ -287,4 +288,4 @@ KL divergence is zero exactly when $$p = q$$ and grows as the two distributions 
 
 We now have the vocabulary for a single random variable: information content, entropy, redundancy, cross-entropy, and KL divergence. [Part 2]({% post_url 2026-07-12-visual-information-theory-part-2 %}) extends all of this to **two or more variables** — joint entropy, conditional entropy, and mutual information — and finishes with the **entropy rate** of a stochastic process, the natural generalization of entropy to sequences that aren't independent and identically distributed.
 
-For a fuller treatment than either source attempts, Shannon's original paper remains remarkably readable <d-cite key="shannon1948mathematical"></d-cite>, and Cover & Thomas's *Elements of Information Theory* is the standard graduate reference <d-cite key="cover2006elements"></d-cite>.
+For a fuller treatment than either source attempts, Shannon's original paper remains remarkably readable <d-cite key="shannon1948mathematical"></d-cite>, and Cover & Thomas's _Elements of Information Theory_ is the standard graduate reference <d-cite key="cover2006elements"></d-cite>.

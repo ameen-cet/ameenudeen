@@ -115,18 +115,18 @@ Every team must complete a course project as the Assignment/Micro-project compon
 
 ## Textbooks
 
-- Simon Haykin and Michael Moher, *Communication Systems*, Wiley, 5th edition, 2020
-- B. P. Lathi and Zhi Ding, *Modern Digital and Analog Communication Systems*, Oxford University Press, 5th edition, 2018
-- Simon Haykin and Michael Moher, *Introduction to Analog and Digital Communication, An Indian Adaptation*, Wiley, 2nd edition, 2022
+- Simon Haykin and Michael Moher, _Communication Systems_, Wiley, 5th edition, 2020
+- B. P. Lathi and Zhi Ding, _Modern Digital and Analog Communication Systems_, Oxford University Press, 5th edition, 2018
+- Simon Haykin and Michael Moher, _Introduction to Analog and Digital Communication, An Indian Adaptation_, Wiley, 2nd edition, 2022
 
 ## Reference Books
 
-- Herbert Taub and Donald L. Schilling, *Principles of Communication Systems*, McGraw-Hill Education, 4th edition, 2013
-- John G. Proakis and Masoud Salehi, *Digital Communications*, McGraw-Hill Education, 6th edition, 2020
-- John G. Proakis and Masoud Salehi, *Communication Systems Engineering*, Pearson, 2nd edition, 2001
-- Simon Haykin, *Digital Communications Systems, An Indian Adaptation*, John Wiley & Sons, 4th edition, 2021
-- George Kennedy, *Electronic Communication Systems*, McGraw Hill, 6th edition, 2017
-- Wayne Stark, *Introduction to Digital Communications*, Cambridge University Press, 1st edition, 2023
+- Herbert Taub and Donald L. Schilling, _Principles of Communication Systems_, McGraw-Hill Education, 4th edition, 2013
+- John G. Proakis and Masoud Salehi, _Digital Communications_, McGraw-Hill Education, 6th edition, 2020
+- John G. Proakis and Masoud Salehi, _Communication Systems Engineering_, Pearson, 2nd edition, 2001
+- Simon Haykin, _Digital Communications Systems, An Indian Adaptation_, John Wiley & Sons, 4th edition, 2021
+- George Kennedy, _Electronic Communication Systems_, McGraw Hill, 6th edition, 2017
+- Wayne Stark, _Introduction to Digital Communications_, Cambridge University Press, 1st edition, 2023
 
 ## Video Lectures
 
@@ -135,9 +135,9 @@ Every team must complete a course project as the Assignment/Micro-project compon
 
 ## Grading (CIE — 40 marks)
 
-| Component | Marks |
-|---|---|
-| Attendance | 5 |
-| Assignment / Microproject | 15 |
-| Internal Examination 1 (written) | 10 |
-| Internal Examination 2 (written) | 10 |
+| Component                        | Marks |
+| -------------------------------- | ----- |
+| Attendance                       | 5     |
+| Assignment / Microproject        | 15    |
+| Internal Examination 1 (written) | 10    |
+| Internal Examination 2 (written) | 10    |

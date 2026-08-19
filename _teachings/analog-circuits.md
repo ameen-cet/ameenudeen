@@ -112,22 +112,22 @@ Every team must complete a course project as the Assignment/Micro-project compon
 
 ## Textbooks
 
-- Robert Boylestad and L. Nashelsky, *Electronic Devices and Circuit Theory*, Pearson, 11th edition, 2015
-- Sedra A. S. and K. C. Smith, *Microelectronic Circuits*, Oxford University Press, 6th edition, 2013
-- Theodore F. Bogart, Jeffrey S. Beasley, and Guillermo Rico, *Electronic Circuits and Devices*, Pearson Education India, 6th edition
+- Robert Boylestad and L. Nashelsky, _Electronic Devices and Circuit Theory_, Pearson, 11th edition, 2015
+- Sedra A. S. and K. C. Smith, _Microelectronic Circuits_, Oxford University Press, 6th edition, 2013
+- Theodore F. Bogart, Jeffrey S. Beasley, and Guillermo Rico, _Electronic Circuits and Devices_, Pearson Education India, 6th edition
 
 ## Reference Books
 
-- B. Razavi, *Fundamentals of Microelectronics*, Wiley, 2nd edition, 2015
-- David A. Bell, *Electronic Devices and Circuits*, Oxford University Press, 5th edition, 2008
-- D. Meganathan, *Electronic Circuits Analysis and Design 1*, Yes Dee Publishing, 1st edition, 2023
-- K. Gopakumar, *Analysis and Design of Electronic Circuits*, OWL Books, 1st edition, 2023
+- B. Razavi, _Fundamentals of Microelectronics_, Wiley, 2nd edition, 2015
+- David A. Bell, _Electronic Devices and Circuits_, Oxford University Press, 5th edition, 2008
+- D. Meganathan, _Electronic Circuits Analysis and Design 1_, Yes Dee Publishing, 1st edition, 2023
+- K. Gopakumar, _Analysis and Design of Electronic Circuits_, OWL Books, 1st edition, 2023
 
 ## Grading (CIE — 40 marks)
 
-| Component | Marks |
-|---|---|
-| Attendance | 5 |
-| Assignment / Microproject | 15 |
-| Internal Examination 1 (written) | 10 |
-| Internal Examination 2 (written) | 10 |
+| Component                        | Marks |
+| -------------------------------- | ----- |
+| Attendance                       | 5     |
+| Assignment / Microproject        | 15    |
+| Internal Examination 1 (written) | 10    |
+| Internal Examination 2 (written) | 10    |

@@ -106,25 +106,25 @@ Conducted using open-source tools such as QUCS, KiCad, LTspice, or other SPICE v
 
 ## Textbooks
 
-- David A. Bell, *Electronic Devices and Circuits*, Oxford University Press, 5th edition, 2008
-- D. Meganathan, *Electronic Circuits Analysis and Design 1*, Yes Dee Publishing, 1st edition, 2023
+- David A. Bell, _Electronic Devices and Circuits_, Oxford University Press, 5th edition, 2008
+- D. Meganathan, _Electronic Circuits Analysis and Design 1_, Yes Dee Publishing, 1st edition, 2023
 
 ## Grading (CIE — 50 marks)
 
-| Component | Marks |
-|---|---|
-| Attendance | 5 |
-| Preparation / pre-lab work, viva, and timely completion of lab reports (continuous assessment) | 25 |
-| Internal Examination | 20 |
+| Component                                                                                      | Marks |
+| ---------------------------------------------------------------------------------------------- | ----- |
+| Attendance                                                                                     | 5     |
+| Preparation / pre-lab work, viva, and timely completion of lab reports (continuous assessment) | 25    |
+| Internal Examination                                                                           | 20    |
 
 ## Grading (ESE — 50 marks)
 
-| Component | Marks |
-|---|---|
-| Procedure / preparatory work / design / algorithm | 10 |
-| Conduct of experiment / execution / troubleshooting | 15 |
-| Result with valid inference / quality of output | 10 |
-| Viva voce | 10 |
-| Record | 5 |
+| Component                                           | Marks |
+| --------------------------------------------------- | ----- |
+| Procedure / preparatory work / design / algorithm   | 10    |
+| Conduct of experiment / execution / troubleshooting | 15    |
+| Result with valid inference / quality of output     | 10    |
+| Viva voce                                           | 10    |
+| Record                                              | 5     |
 
 Students are admitted to the End Semester Examination only upon submitting a duly certified lab record, endorsed by the external examiner.
