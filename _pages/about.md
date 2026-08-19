@@ -11,9 +11,6 @@ profile:
   more_info: >
     <p>Srinivasa Ramanujan Centre for Machine Intelligence</p>
     <p>Research Block, Dept. of ECE</p>
-    <p>College of Engineering Trivandrum</p>
-    <p>Trivandrum - 695016</p>
-    <p>ameenudeen@cet.ac.in</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
