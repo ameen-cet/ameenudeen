@@ -28,6 +28,11 @@ schedule:
     date: Jul 30
     topic: BJT Amplifiers
     description: Design of the RC coupled CE amplifier, small-signal analysis using the hybrid-π model at low and mid frequency. High-frequency hybrid-π model of the BJT, Miller effect, high-frequency response of a single-stage CE amplifier, short-circuit current gain, cut-off frequency f_β and unity-gain bandwidth f_T.
+    materials:
+      - name: "Notes: RC-Coupled Amplifier Design Considerations"
+        url: /assets/pdf/RC_Coupled_Amplifier_Design_Considerations.pdf
+      - name: "Notes: RC-Coupled Amplifier Frequency Response"
+        url: /assets/pdf/RC_Coupled_Amplifier_Frequency_Response.pdf
 
   - week: 4
     date: Aug 6
