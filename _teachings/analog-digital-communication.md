@@ -38,6 +38,9 @@ schedule:
     date: Aug 14
     topic: First Series Examination
     description: Written internal examination covering Modules 1 and 2.
+    materials:
+      - name: First Series Question Paper
+        url: /assets/pdf/ADC_series1.pdf
 
   - week: 6
     date: Aug 20
