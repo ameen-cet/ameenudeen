@@ -38,6 +38,9 @@ schedule:
     date: Aug 6
     topic: MOSFET and Multistage Amplifiers
     description: Design of the CS amplifier and its small-signal analysis. Multistage BJT amplifiers, effect of cascading on gain and bandwidth, and the BJT cascode amplifier.
+    materials:
+      - name: "Notes: BJT Multistage Amplifiers — Theory and Design"
+        url: /assets/pdf/BJT_Multistage_Amplifiers_Theory_and_Design.pdf
 
   - week: 5
     date: Aug 14
@@ -51,6 +54,9 @@ schedule:
     date: Aug 20
     topic: Feedback Amplifiers
     description: The general feedback structure; effect of negative feedback on gain, bandwidth, noise, and distortion. The four basic feedback topologies; analysis of discrete BJT circuits in voltage-series and voltage-shunt feedback — voltage gain, input and output impedance.
+    materials:
+      - name: "Slides: Feedback Amplifiers — Analysis with Derivations"
+        url: /assets/pdf/feedback_present_with_derivations.pdf
 
   - week: 7
     date: Aug 27
