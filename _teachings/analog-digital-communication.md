@@ -59,6 +59,11 @@ schedule:
     date: Sep 3
     topic: Optimum Receivers
     description: Matched filter and correlation receivers, MAP receiver, maximum likelihood receiver.
+    materials:
+      - name: "Slides: Matched Filter"
+        url: /assets/pdf/Matched_Filter.pdf
+      - name: "Slides: Signal Detection in the Presence of AWGN"
+        url: /assets/pdf/passband.pdf
 
   - week: 9
     date: Sep 10
