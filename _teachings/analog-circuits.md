@@ -62,6 +62,9 @@ schedule:
     date: Aug 27
     topic: Oscillators
     description: Classification and the criterion for oscillation. Wien bridge, Hartley, and Crystal oscillators — working principle and design equations; detailed analysis of the Wien bridge oscillator.
+    materials:
+      - name: "Slides: Oscillators — Classification, Barkhausen Criterion, RC and LC Oscillators"
+        url: /assets/pdf/Analog-Circuits-Oscillators.pdf
 
   - week: 8
     date: Sep 3
