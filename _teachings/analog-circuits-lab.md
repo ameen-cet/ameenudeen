@@ -70,6 +70,17 @@ schedule:
     date: Sep 24
     topic: Internal Examination (Tentative)
     description: Tentative date for the lab internal examination — preparation, conduct of experiments, viva, and timely completion of records are assessed. Unlike the theory courses, the lab does not follow the fixed series-exam schedule, so this date is subject to change.
+    materials:
+      - name: "1. Notes: Understanding Bias, the Q-Point, and Operating Regions"
+        url: /assets/pdf/transistor_working.pdf
+      - name: "2. Notes: Large-Signal and Small-Signal Models of a CE Stage"
+        url: /assets/pdf/small_signal.pdf
+      - name: "3. Notes: BJT Bias Circuits and the Three Basic Amplifier Configurations"
+        url: /assets/pdf/amplifier_configurations.pdf
+      - name: "4. Tutorial: Transistor Bias, Amplifiers, and Frequency Response (30 Questions)"
+        url: /assets/pdf/tutorial.pdf
+      - name: "5. Tutorial Solutions"
+        url: /assets/pdf/tutorial_solutions.pdf
 
   - week: 12
     date: Oct 1
@@ -86,6 +97,16 @@ This laboratory course accompanies the Analog Circuits theory course. It gives s
 - **CO1** — Design and demonstrate the functioning of basic analog circuits using discrete components.
 - **CO2** — Design and simulate the functioning of basic analog circuits using simulation tools.
 - **CO3** — Conduct troubleshooting of a given circuit and analyze it.
+
+## Internal Exam Preparation
+
+The following notes and tutorial are meant to be worked through in order ahead of the lab internal examination. They build up from transistor bias to the amplifier configurations and frequency response used across the lab experiments, ending in a self-assessment tutorial with solutions.
+
+1. [Understanding Bias, the Q-Point, and Operating Regions]({{ '/assets/pdf/transistor_working.pdf' | relative_url }}) — how a resting operating point is set on a common-emitter stage, and what cutoff, forward-active, and saturation mean for it.
+2. [Large-Signal and Small-Signal Models of a CE Stage]({{ '/assets/pdf/small_signal.pdf' | relative_url }}) — separating DC bias analysis from the small-signal (hybrid-π) model built around the Q-point.
+3. [BJT Bias Circuits and the Three Basic Amplifier Configurations]({{ '/assets/pdf/amplifier_configurations.pdf' | relative_url }}) — common bias circuits and the gain/input/output resistance of CE, CB, and CC stages.
+4. [Tutorial: Transistor Bias, Amplifiers, and Frequency Response]({{ '/assets/pdf/tutorial.pdf' | relative_url }}) — 30 questions (20 theory/viva, 10 numerical) spanning bias, small-signal models, amplifier configurations, cascade/cascode stages, RC-coupled frequency response, and Class A/B power amplifiers.
+5. [Tutorial Solutions]({{ '/assets/pdf/tutorial_solutions.pdf' | relative_url }}) — theory pointers and worked numericals for all 30 questions.
 
 ## Part A — Hardware Experiments (any six mandatory)
 
