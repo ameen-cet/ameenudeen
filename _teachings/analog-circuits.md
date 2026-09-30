@@ -23,6 +23,9 @@ schedule:
     date: Jul 23
     topic: Diode Circuits and Biasing
     description: Need for biasing, DC load line and operating point, BJT biasing (CE configuration) — fixed bias and voltage divider bias design, MOSFET biasing.
+    materials:
+      - name: "Notes: Understanding Bias, the Q-Point, and Operating Regions"
+        url: /assets/pdf/transistor_working.pdf
 
   - week: 3
     date: Jul 30
@@ -33,6 +36,10 @@ schedule:
         url: /assets/pdf/RC_Coupled_Amplifier_Design_Considerations.pdf
       - name: "Notes: RC-Coupled Amplifier Frequency Response"
         url: /assets/pdf/RC_Coupled_Amplifier_Frequency_Response.pdf
+      - name: "Notes: Large-Signal and Small-Signal Models of a CE Stage"
+        url: /assets/pdf/small_signal.pdf
+      - name: "Notes: BJT Bias Circuits and the Three Basic Amplifier Configurations"
+        url: /assets/pdf/amplifier_configurations.pdf
 
   - week: 4
     date: Aug 6
@@ -49,6 +56,10 @@ schedule:
     materials:
       - name: First Series Question Paper
         url: /assets/pdf/analog_circuit_series1.pdf
+      - name: "Tutorial: Transistor Bias, Amplifiers, and Frequency Response (30 Questions)"
+        url: /assets/pdf/tutorial.pdf
+      - name: "Tutorial Solutions"
+        url: /assets/pdf/tutorial_solutions.pdf
 
   - week: 6
     date: Aug 20
@@ -116,6 +127,16 @@ Every team must complete a course project as the Assignment/Micro-project compon
 - **Abstract submission**: due August 17,2026
 - **Mode**: hardware, simulation, or both — the team's choice
 - **Submission**: a shared project folder (schematics, SPICE files, measurements, logbook scan) and a final report.
+
+## Exam Preparation
+
+The following notes and tutorial are also used in the companion lab course, and are equally relevant here — they build up from transistor bias to the amplifier configurations and frequency response covered in Modules 1 and 2, ending in a self-assessment tutorial with solutions.
+
+1. [Understanding Bias, the Q-Point, and Operating Regions]({{ '/assets/pdf/transistor_working.pdf' | relative_url }}) — how a resting operating point is set on a common-emitter stage, and what cutoff, forward-active, and saturation mean for it.
+2. [Large-Signal and Small-Signal Models of a CE Stage]({{ '/assets/pdf/small_signal.pdf' | relative_url }}) — separating DC bias analysis from the small-signal (hybrid-π) model built around the Q-point.
+3. [BJT Bias Circuits and the Three Basic Amplifier Configurations]({{ '/assets/pdf/amplifier_configurations.pdf' | relative_url }}) — common bias circuits and the gain/input/output resistance of CE, CB, and CC stages.
+4. [Tutorial: Transistor Bias, Amplifiers, and Frequency Response]({{ '/assets/pdf/tutorial.pdf' | relative_url }}) — 30 questions (20 theory/viva, 10 numerical) spanning bias, small-signal models, amplifier configurations, cascade/cascode stages, RC-coupled frequency response, and Class A/B power amplifiers.
+5. [Tutorial Solutions]({{ '/assets/pdf/tutorial_solutions.pdf' | relative_url }}) — theory pointers and worked numericals for all 30 questions.
 
 ## Prerequisites
 
