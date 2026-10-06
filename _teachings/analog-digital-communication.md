@@ -69,6 +69,9 @@ schedule:
     date: Sep 10
     topic: BPSK and QPSK
     description: Digital band-pass modulation schemes — BPSK system and signal constellation, BPSK transmitter and receiver. QPSK system and signal constellations, QPSK transmitter and receiver.
+    materials:
+      - name: "Slides: Passband Digital Transmission — Binary and M-ary Modulation"
+        url: /assets/pdf/passband-digital-transmission.pdf
 
   - week: 10
     date: Sep 17
